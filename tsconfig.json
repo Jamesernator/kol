@@ -15,5 +15,5 @@
     "useDefineForClassFields": true,
     "importsNotUsedAsValues": "error"
   },
-  "include": ["**/*.ts"]
+  "include": ["src/**/*.ts"]
 }

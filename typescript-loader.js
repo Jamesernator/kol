@@ -1,6 +1,10 @@
 import fs from 'fs';
 import ts from 'typescript';
 
+/**
+ * @param {string} string
+ * @returns {boolean}
+ */
 function isURL(string) {
     try {
         new URL(string);

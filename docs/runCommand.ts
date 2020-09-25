@@ -15,7 +15,7 @@ export default async function runCommand(command: string): Promise<void> {
     const rootWindow = getRootWindow();
     const { default: runCommandInRootWindow } = await importInWindow(
         rootWindow,
-        new URL("./runCommandInRootWindow.ts", import.meta.url),
+        new URL("./runCommandInRootWindow.js", import.meta.url),
     ) as typeof runCommandInRootWindowModule;
     await runCommandInRootWindow(command);
 }

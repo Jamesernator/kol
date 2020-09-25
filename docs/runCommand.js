@@ -6,7 +6,7 @@ function importInWindow(window, scriptUrl) {
 }
 export default async function runCommand(command) {
     const rootWindow = getRootWindow();
-    const { default: runCommandInRootWindow } = await importInWindow(rootWindow, new URL("./runCommandInRootWindow.ts", import.meta.url));
+    const { default: runCommandInRootWindow } = await importInWindow(rootWindow, new URL("./runCommandInRootWindow.js", import.meta.url));
     await runCommandInRootWindow(command);
 }
 //# sourceMappingURL=runCommand.js.map

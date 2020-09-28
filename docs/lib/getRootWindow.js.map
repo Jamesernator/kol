@@ -1,1 +1,0 @@
-{"version":3,"file":"getRootWindow.js","sourceRoot":"","sources":["getRootWindow.ts"],"names":[],"mappings":"AACA,MAAM,UAAU,aAAa;IACzB,IAAI,aAAa,GAA+B,MAAM,CAAC;IACvD,OAAO,aAAa,CAAC,MAAM,KAAK,aAAa,EAAE;QAC3C,aAAa,GAAG,aAAa,CAAC,MAAoC,CAAC;KACtE;IACD,OAAO,aAAa,CAAC;AACzB,CAAC"}

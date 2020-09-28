@@ -3,6 +3,7 @@
         "target": "esnext",
         "module": "esnext",
         "sourceMap": true,
+        "inlineSources": true,
         "downlevelIteration": true,
 
         "strict": true,
@@ -14,7 +15,8 @@
         "allowSyntheticDefaultImports": true,
         "useDefineForClassFields": true,
         "importsNotUsedAsValues": "error",
-        "lib": ["ESNext", "DOM"]
+        "lib": ["ESNext", "DOM"],
+        "outDir": "./docs/"
     },
-    "include": ["docs/**/*.ts"]
+    "include": ["src/**/*.ts"]
 }

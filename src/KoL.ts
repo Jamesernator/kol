@@ -1,147 +1,142 @@
+import Signal from "./lib/Signal.js";
+import cancel from "./lib/cancel.js";
 
-    function rootWindow() {
-        let currentWindow = window;
-        while (currentWindow.parent !== currentWindow) {
-            currentWindow = currentWindow.parent;
-        }
-        return currentWindow;
+function assertIsIFrame(value: any): HTMLIFrameElement {
+    if (!(value instanceof HTMLIFrameElement)) {
+        throw new TypeError("Not an iframe element");
+    }
+    return value;
+}
+
+function assertIsWindow(value: any): Window & typeof globalThis {
+    if (!(value instanceof Window)) {
+        throw new TypeError("Not a window");
+    }
+    return value as Window & typeof globalThis;
+}
+
+function assertIsDocument(value: any): Document {
+    if (!(value instanceof Document)) {
+        throw new TypeError("Not a document");
+    }
+    return value;
+}
+
+function assertIsForm(value: any): HTMLFormElement {
+    if (!(value instanceof HTMLFormElement)) {
+        throw new TypeError("Not a form");
+    }
+    return value;
+}
+
+export default class KoL {
+    #rootWindow: Window & typeof globalThis;
+    #mainPane: HTMLIFrameElement;
+    #chatPane: HTMLIFrameElement;
+    #menuPane: HTMLIFrameElement;
+    #charPane: HTMLIFrameElement;
+
+    constructor(rootWindow: Window & typeof globalThis) {
+        this.#rootWindow = rootWindow;
+        const $ = (s: string) => {
+            return assertIsIFrame(rootWindow.document.querySelector(s));
+        };
+        this.#mainPane = $("[name=mainpane]");
+        this.#chatPane = $("[name=chatpane]");
+        this.#menuPane = $("[name=menupane]");
+        this.#charPane = $("[name=charpane]");
     }
 
-    export default class KoL {
-        #rootWindow;
-        #mainPane;
-        #chatPane;
-        #menuPane;
-        #charPane;
+    get rootWindow(): Window & typeof globalThis {
+        return this.#rootWindow;
+    }
 
-        constructor(rootWindow) {
-            this.#rootWindow = rootWindow;
-            const $ = s => rootWindow.document.querySelector(s);
-            this.#mainPane = $("[name=mainpane]");
-            this.#chatPane = $("[name=chatpane]");
-            this.#menuPane = $("[name=menupane]");
-            this.#charPane = $("[name=charpane]");
-        }
+    get mainPane(): HTMLIFrameElement {
+        return this.#mainPane;
+    }
 
-        get rootWindow() {
-            return this.#rootWindow;
-        }
+    get mainWindow(): Window & typeof globalThis {
+        return assertIsWindow(this.#mainPane.contentWindow);
+    }
 
-        get mainPane() {
-            return this.#mainPane;
-        }
+    get mainDocument(): Document {
+        return assertIsDocument(this.#mainPane.contentDocument);
+    }
 
-        get mainWindow() {
-            return this.#mainPane.contentWindow;
-        }
+    get chatPane(): HTMLIFrameElement {
+        return this.#chatPane;
+    }
 
-        get mainDocument() {
-            return this.#mainPane.contentDocument;
-        }
+    get chatWindow(): Window & typeof globalThis {
+        return assertIsWindow(this.#chatPane.contentWindow);
+    }
 
-        get chatPane() {
-            return this.#chatPane;
-        }
+    get chatDocument(): Document {
+        return assertIsDocument(this.#chatPane.contentDocument);
+    }
 
-        get chatWindow() {
-            return this.#chatPane.contentWindow;
-        }
+    get menuPane(): HTMLIFrameElement {
+        return this.#menuPane;
+    }
 
-        get chatDocument() {
-            return this.#chatPane.contentDocument
-        }
+    get menuWindow(): Window & typeof globalThis {
+        return assertIsWindow(this.#menuPane.contentWindow);
+    }
 
-        get menuPane() {
-            return this.#menuPane;
-        }
+    get menuDocument(): Document {
+        return assertIsDocument(this.#menuPane.contentDocument);
+    }
 
-        get menuWindow() {
-            return this.#menuPane.contentWindow;
-        }
+    get charPane(): HTMLIFrameElement {
+        return this.#charPane;
+    }
 
-        get menuDocument() {
-            return this.#menuPane.contentDocument;
-        }
+    get charWindow(): Window & typeof globalThis {
+        return assertIsWindow(this.#charPane.contentWindow);
+    }
 
-        get charPane() {
-            return this.#charPane;
-        }
+    get charDocument(): Document {
+        return assertIsDocument(this.#charPane.contentDocument);
+    }
 
-        get charWindow() {
-            return this.#charPane.contentWindow;
-        }
+    get pwdHash(): string {
+        return (this.chatWindow as any).pwdhash as string;
+    }
 
-        get charDocument() {
-            return this.#charPane.contentDocument;
-        }
+    get mainUrl(): string {
+        return this.mainWindow.location.href;
+    }
 
-        get pwdHash() {
-            return this.chatWindow.pwdhash;
-        }
-
-        get mainUrl() {
-            return this.mainWindow.location.href;
-        }
-
-        nextLoad() {
-            return new Promise(resolve => {
-                this.#mainPane.addEventListener('load', resolve, { once: true });
+    nextLoad(cancelSignal: Signal=Signal.never): Promise<Event> {
+        return new Promise((resolve, reject) => {
+            this.#mainPane.addEventListener("load", resolve, { once: true });
+            cancelSignal.register(() => {
+                this.#mainPane.removeEventListener("load", resolve);
+                reject(cancel());
             });
-        }
-
-        async goto(url, options={}) {
-            url = new URL(url, this.#rootWindow.location.origin);
-            for (const [key, value] of Object.entries(options)) {
-                url.searchParams.set(key, value);
-            }
-            const nextLoad = this.nextLoad();
-            this.mainWindow.location.href = url.href;
-            await nextLoad;
-        }
-
-        async submit(form='form') {
-            if (typeof form === 'string') form = this.mainDocument.querySelector(form);
-            const nextLoad = this.nextLoad();
-            form.submit();
-            await nextLoad;
-        }
+        });
     }
 
-    class DeckOfEveryCard {
-        #kol;
-
-        constructor(kol) {
-            this.#kol = kol;
+    async goto(
+        url: string | URL,
+        options: Record<string, string | number>={},
+    ): Promise<void> {
+        url = new URL(url.toString(), this.#rootWindow.location.origin);
+        for (const [key, value] of Object.entries(options)) {
+            url.searchParams.set(key, String(value));
         }
- 
-        async visitCheat() {
-            await this.#kol.goto('/inv_use.php', {
-                pwd: this.#kol.pwdHash,
-                cheat: 1,
-                whichitem: 8382,
-            });
-        }
-
-        async cheat(card) {
-            await this.visitCheat();
-
-            const options = Array.from(this.#kol.mainDocument
-                .querySelectorAll('select#which > option'))
-                .filter(option => {
-                    return option.textContent.toLowerCase().includes(card.toLowerCase());
-                });
-            if (options.length === 0) {
-                throw new Error(`No matches for card ${ card }`);
-            }
-            if (options.length > 1) {
-                throw new Error(`Multiple options for card ${ card }`);
-            }
-            options[0].selected = true;
-            await this.#kol.submit();
-            await this.#kol.submit("#play");
-
-        }
+        const nextLoad = this.nextLoad();
+        this.mainWindow.location.href = url.href;
+        await nextLoad;
     }
-    
-    window.kol = new KoL(rootWindow());
-    window.deck = new DeckOfEveryCard(kol);
+
+    async submit(form: string | HTMLFormElement="form"): Promise<void> {
+        if (typeof form === "string") {
+            form = assertIsForm(this.mainDocument.querySelector(form));
+        }
+        const nextLoad = this.nextLoad();
+        form.submit();
+        await nextLoad;
+    }
+}
+

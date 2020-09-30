@@ -13,6 +13,7 @@ export default class DeckOfEveryCard {
             cheat: 1,
             whichitem: 8382,
         });
+        this.#kol.assertIsChoice(1086);
     }
 
     async cheat(card: string): Promise<void> {
@@ -32,6 +33,7 @@ export default class DeckOfEveryCard {
         }
         options[0].selected = true;
         await this.#kol.submit();
+        this.#kol.assertIsChoice(1085);
         await this.#kol.submit("#play");
     }
 }

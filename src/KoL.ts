@@ -138,5 +138,17 @@ export default class KoL {
         form.submit();
         await nextLoad;
     }
+
+    assertIsChoice(choiceAdv: number): void {
+        const url = new URL(this.mainUrl);
+        if (url.pathname !== "/choice.php") {
+            throw new Error("Not in choice.php");
+        }
+        const choice = document
+            .getElementsByName("whichchoice")[0] as HTMLInputElement;
+        if (Number(choice.value) !== choiceAdv) {
+            throw new Error(`Expected to be in choice ${ choiceAdv }`);
+        }
+    }
 }
 

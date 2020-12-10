@@ -1,5 +1,6 @@
 import Signal from "./lib/Signal.js";
 import cancel from "./lib/cancel.js";
+import DeckOfEveryCard from "./DeckOfEveryCard.js";
 
 function assertIsIFrame(value: any): HTMLIFrameElement {
     if (!(value instanceof HTMLIFrameElement)) {
@@ -29,12 +30,19 @@ function assertIsForm(value: any): HTMLFormElement {
     return value;
 }
 
+type ChatPane = HTMLIFrameElement & {
+    contentWindow: NonNullable<HTMLIFrameElement['contentWindow']> & {
+        submitchat: (chat: string, callback: () => void) => void,
+    },
+};
+
 export default class KoL {
-    #rootWindow: Window & typeof globalThis;
-    #mainPane: HTMLIFrameElement;
-    #chatPane: HTMLIFrameElement;
-    #menuPane: HTMLIFrameElement;
-    #charPane: HTMLIFrameElement;
+    readonly #rootWindow: Window & typeof globalThis;
+    readonly #mainPane: HTMLIFrameElement;
+    readonly #chatPane: ChatPane;
+    readonly #menuPane: HTMLIFrameElement;
+    readonly #charPane: HTMLIFrameElement;
+    readonly #deckOfEveryCard: DeckOfEveryCard = new DeckOfEveryCard(this);
 
     constructor(rootWindow: Window & typeof globalThis) {
         this.#rootWindow = rootWindow;
@@ -42,7 +50,7 @@ export default class KoL {
             return assertIsIFrame(rootWindow.document.querySelector(s));
         };
         this.#mainPane = $("[name=mainpane]");
-        this.#chatPane = $("[name=chatpane]");
+        this.#chatPane = $("[name=chatpane]") as ChatPane;
         this.#menuPane = $("[name=menupane]");
         this.#charPane = $("[name=charpane]");
     }
@@ -105,6 +113,19 @@ export default class KoL {
 
     get mainUrl(): string {
         return this.mainWindow.location.href;
+    }
+
+    get deckOfEveryCard(): DeckOfEveryCard {
+        return this.#deckOfEveryCard;
+    }
+
+    async chatCommand(command: string): Promise<void> {
+        if (!command.startsWith('/')) {
+            command = `/${ command }`;
+        }
+        await new Promise(resolve => {
+            this.#chatPane.contentWindow.submitchat(command, resolve);
+        });
     }
 
     nextLoad(cancelSignal: Signal=Signal.never): Promise<Event> {

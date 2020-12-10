@@ -16,7 +16,7 @@
         "useDefineForClassFields": true,
         "importsNotUsedAsValues": "error",
         "lib": ["ESNext", "DOM"],
-        "outDir": "./docs/"
+        "outDir": "./dist/"
     },
     "include": ["src/**/*.ts"]
 }

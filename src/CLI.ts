@@ -3,7 +3,7 @@ import type KoL from "./KoL.js";
 export default class CLI {
     readonly #kol: KoL;
     readonly #pending?: {
-        commands: string[],
+        commands: Array<string>,
         abortController: AbortController,
     };
 

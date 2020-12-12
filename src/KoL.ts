@@ -1,65 +1,71 @@
+import DeckOfEveryCard from "./DeckOfEveryCard.js";
 import Signal from "./lib/Signal.js";
 import cancel from "./lib/cancel.js";
-import DeckOfEveryCard from "./DeckOfEveryCard.js";
 
-function assertIsIFrame(value: any): HTMLIFrameElement {
-    if (!(value instanceof HTMLIFrameElement)) {
+function assertIsFrame(value: any): HTMLFrameElement {
+    if (value?.constructor.name !== "HTMLFrameElement") {
         throw new TypeError("Not an iframe element");
     }
     return value;
 }
 
-function assertIsWindow(value: any): Window & typeof globalThis {
-    if (!(value instanceof Window)) {
+function assertIsWindow<T={}>(value: any): Window & typeof globalThis & T {
+    if (value?.constructor.name !== "Window") {
         throw new TypeError("Not a window");
     }
-    return value as Window & typeof globalThis;
+    return value as Window & typeof globalThis & T;
 }
 
 function assertIsDocument(value: any): Document {
-    if (!(value instanceof Document)) {
+    if (value?.constructor.name !== "HTMLDocument") {
         throw new TypeError("Not a document");
     }
     return value;
 }
 
 function assertIsForm(value: any): HTMLFormElement {
-    if (!(value instanceof HTMLFormElement)) {
+    if (value?.constructor.name !== "HTMLFormElement") {
         throw new TypeError("Not a form");
     }
     return value;
 }
 
-type ChatPane = HTMLIFrameElement & {
-    contentWindow: NonNullable<HTMLIFrameElement['contentWindow']> & {
+type ChatPane = HTMLFrameElement & {
+    contentWindow: NonNullable<HTMLFrameElement["contentWindow"]> & {
         submitchat: (chat: string, callback: () => void) => void,
+    },
+};
+
+type CharPane = HTMLFrameElement & {
+    contentWindow: NonNullable<HTMLFrameElement["contentWindow"]> & {
+        pwdhash: string,
     },
 };
 
 export default class KoL {
     readonly #rootWindow: Window & typeof globalThis;
-    readonly #mainPane: HTMLIFrameElement;
+    readonly #mainPane: HTMLFrameElement;
     readonly #chatPane: ChatPane;
-    readonly #menuPane: HTMLIFrameElement;
-    readonly #charPane: HTMLIFrameElement;
+    readonly #menuPane: HTMLFrameElement;
+    readonly #charPane: CharPane;
     readonly #deckOfEveryCard: DeckOfEveryCard = new DeckOfEveryCard(this);
 
     constructor(rootWindow: Window & typeof globalThis) {
         this.#rootWindow = rootWindow;
         const $ = (s: string) => {
-            return assertIsIFrame(rootWindow.document.querySelector(s));
+            return assertIsFrame(rootWindow.document.querySelector(s));
         };
         this.#mainPane = $("[name=mainpane]");
         this.#chatPane = $("[name=chatpane]") as ChatPane;
         this.#menuPane = $("[name=menupane]");
-        this.#charPane = $("[name=charpane]");
+        this.#charPane = $("[name=charpane]") as CharPane;
     }
 
     get rootWindow(): Window & typeof globalThis {
         return this.#rootWindow;
     }
 
-    get mainPane(): HTMLIFrameElement {
+    get mainPane(): HTMLFrameElement {
         return this.#mainPane;
     }
 
@@ -71,7 +77,7 @@ export default class KoL {
         return assertIsDocument(this.#mainPane.contentDocument);
     }
 
-    get chatPane(): HTMLIFrameElement {
+    get chatPane(): HTMLFrameElement {
         return this.#chatPane;
     }
 
@@ -83,7 +89,7 @@ export default class KoL {
         return assertIsDocument(this.#chatPane.contentDocument);
     }
 
-    get menuPane(): HTMLIFrameElement {
+    get menuPane(): HTMLFrameElement {
         return this.#menuPane;
     }
 
@@ -95,11 +101,11 @@ export default class KoL {
         return assertIsDocument(this.#menuPane.contentDocument);
     }
 
-    get charPane(): HTMLIFrameElement {
+    get charPane(): HTMLFrameElement {
         return this.#charPane;
     }
 
-    get charWindow(): Window & typeof globalThis {
+    get charWindow(): CharPane["contentWindow"] {
         return assertIsWindow(this.#charPane.contentWindow);
     }
 
@@ -108,7 +114,7 @@ export default class KoL {
     }
 
     get pwdHash(): string {
-        return (this.chatWindow as any).pwdhash as string;
+        return this.charWindow.pwdhash;
     }
 
     get mainUrl(): string {
@@ -120,10 +126,10 @@ export default class KoL {
     }
 
     async chatCommand(command: string): Promise<void> {
-        if (!command.startsWith('/')) {
+        if (!command.startsWith("/")) {
             command = `/${ command }`;
         }
-        await new Promise(resolve => {
+        await new Promise((resolve) => {
             this.#chatPane.contentWindow.submitchat(command, resolve);
         });
     }
@@ -151,6 +157,13 @@ export default class KoL {
         await nextLoad;
     }
 
+    async use(item: number): Promise<void> {
+        await this.goto("/inv_use.php", {
+            pwd: this.pwdHash,
+            whichItem: String(item),
+        });
+    }
+
     async submit(form: string | HTMLFormElement="form"): Promise<void> {
         if (typeof form === "string") {
             form = assertIsForm(this.mainDocument.querySelector(form));
@@ -165,7 +178,7 @@ export default class KoL {
         if (url.pathname !== "/choice.php") {
             throw new Error("Not in choice.php");
         }
-        const choice = document
+        const choice = this.mainDocument
             .getElementsByName("whichchoice")[0] as HTMLInputElement;
         if (Number(choice.value) !== choiceAdv) {
             throw new Error(`Expected to be in choice ${ choiceAdv }`);

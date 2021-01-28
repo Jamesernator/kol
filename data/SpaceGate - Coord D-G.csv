@@ -1,0 +1,234 @@
+,,231,,,,,,223,,,,,,,223,,224,,218,,99,89,82,,219,212,110,,7,10,16,,6,12,6,,9,7,6,53,16,4,37,15,8,26,0,28,22,218,,33,24,10,43,26,6,67,75,27,64,31,184,220,,,,,,,,,,,,
+Coordinates,Predicted Name?,Actual Name,Magnetic Storm,High Winds,Irradiated,Toxic Atmosphere,High Gravity,Environmental,Hot Solar Flares,Frigid Zones,Scary Noises,Nasty Gasses,Lewd Rock Formations,Elemental,Plant,(Hostile),Animal,(Hostile),Intelligent,(Hostile),Spants,Murderbots,Ruins,,Space Cave,Cool Space Rocks,Wide Open Spaces,,"Curses, a hex!",Monolith,Terminal,,Time Enough at Last,Mother May I,Please Baby...,,Paradise...,Half the Ship...,Land Ho!,Simple Plant,Complicated Plant,What a Plant!,The Animals...,Buffalo-Like Animal...,House-Sized Animal,Interstellar Trade,Trade Item,Here There Be No Spants,Recovering the Satellite,Total NC Advs,,Hostile Plant,Large Hostile Plant,Exotic Hostile Plant,Small Hostile Animal,Large Hostile Animal,Exotic Hostile Animal,Hostile Intelligent Alien,Spant Drone,Spant Soldier,Murderbot Drone,Murderbot Soldier,Total C Advs,Total Advs,Notes,C1 Predicted,C1 Actual,CSum,C1,C2,C3,C4,C5,C6,C7,Weighted Sum (WSum)
+DOCTORW,N,Iota Linoleus VI,,,,Y,,1,,,,,,0,primitive,Y,none,,none,,,Y,,,4,3,3,,,,,,,,,,,,,,,,,,,,,,,10,,5,,,,,,,,,5,,10,20, Gemstone x2 (w/geo kit),1,1,91,3,14,2,19,14,17,22,439
+DABBING,N,Delta Gromulus IX,,Y,,,,1,,,,,,0,none,,advanced,,detected,,Y,,Y,,3,2,,,,1,,,,,,,,,,,,,,6,,1,Salad (13k),,,13,,,,,,,,,4,3,,,7,20,"((172pg)zoo kit(10) geo kit(10). 14 rocks, 1 gem, 10 toes, 2 comp samp(imgur/FPt4mIJ))",1,1,32,3,0,1,1,8,13,6,170
+DEGLOVE,N,Xi Stemple X,,,,,Y,1,,,,,,0,primitive,,none,,none,,Y,,Y,,1,4,3,,,,,,1,,,,,,,2,,,,,,,,,,11,,,,,,,,,9,,,,9,20,"((207pg)geo kit. 35 rocks, 1 gem, 2 fibres(imgur/iKQS82G))",,,,,,,,,,,
+EAGERLY,N,Cardboardius Jackson X,,,Y,,,1,,,,,,0,none,,none,,none,,Y,,,,3,4,4,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,,,,9,,,,9,20,"((344pg)geo kit. 48 rocks, 2 gems(imgur/GiECTUu))",,,,,,,,,,,
+FABBEST,N,Eta Milkius X,,,,Y,,1,,Y,,,,1,none,,primitive,,detected,Y,Y,Y,,,2,3,,,,,,,,,,,,,,,,,2,,,,,,1,8,,,,,,,,5,4,3,,,12,20,"((62pg)geo kit. 20 rocks, 2 toes(imgur/wqRwwAO))",2,2,48,5,0,1,1,4,18,19,273
+DABBERS,N,Upsilon Bob II,,,Y,,,1,,,,,,0,primitive,,primitive,Y,none,,Y,,,,3,2,,,,,,,,,,,,,,4,,,,,,,,,,9,,,,,3,,,,8,,,,11,20,"((67pg)geo kit. 20 rock, 4 fibre, 3 toe(imgur/WwBXAM8))",1,1,44,3,0,1,1,4,17,18,258
+EAGERER,N,Reaganus O'Kelly VII,,,,,Y,1,,,,,,0,primitive,,none,,detected,Y,,,Y,,2,3,3,,,1,,,,,,,,,,4,,,,,,,,,,13,,,,,,,,7,,,,,7,20,"((69pg)bio kit. 19 rock, 4 plant(imgur/vNI5vmb))",1,1,52,4,0,6,4,17,4,17,266
+DABBITY,N,Sigma Peterson VII,,Y,,,,1,,,,,,0,advanced,,none,,none,,Y,Y,,,3,3,,,,,,,,,,,,,,,4,,,,,,,,3,13,,,,,,,,,7,,,,7,20,"((83pg)geo kit. 24 rocks, 11 fibres(imgur/NZeIcsz))",1,1,56,3,0,1,1,8,19,24,332
+EZZZZZN,N,Epsilon Buck X,Y,,,,,1,,,,,,0,primitive,,none,,detected,Y,Y,,,,1,4,,,,,,,,,,,,,,1,,,,,,,,,,6,,,,,,,,7,7,,,,14,20,[Gasvac],1,1,142,4,25,25,25,25,25,13,595
+EZZZZZQ,N,Eta Goldthwait X,,,,,Y,1,,,,,,0,advanced,Y,none,,detected,Y,Y,Y,Y,,3,1,,,,,,,,,,,1,,,,,,,,,,,,,5,,,3,,,,,7,1,,3,1,15,20,[Gasvac],1,1,145,4,25,25,25,25,25,16,616
+EZZZZZT,N,Zeta Microscopius II,,,,Y,,1,,,,,,0,none,,advanced,,detected,Y,Y,,,,2,4,,,,,,,,,,,,,,,,,,4,,,,3,,13,,,,,,,,7,,,,,7,20,[Gasvac],1,1,148,4,25,25,25,25,25,19,637
+EZZZZZB,N,Epsilon O'Reilly VII,,,,,Y,1,,,,,,0,advanced,Y,none,,detected,Y,,,,,4,4,4,,,,,,,,,,,,,,,,,,,,,,,12,,,2,,,,,6,,,,,8,20,[Gasvac],1,1,130,4,25,25,25,25,25,1,511
+EZZZZZU,N,Conjunctivitus Taylor IV,,Y,,,,1,,,,,,0,primitive,Y,none,,detected,Y,Y,,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,4,,2,,,,,,6,8,,,,16,20,[Gasvac],1,1,149,4,25,25,25,25,25,20,644
+EZZZZZA,N,Epsilon Wallace V,,Y,,,,1,,,,,,0,primitive,Y,none,,detected,Y,Y,Y,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,4,,4,,,,,,5,4,,2,1,16,20,[Gasvac],1,1,129,4,25,25,25,25,25,0,504
+EZZZZZG,N,Eta Moore I,Y,,,,,1,,,,,,0,primitive,,none,,detected,Y,,,Y,,3,2,5,,,,,,1,,,,,,,4,,,,,,,,,,15,,,,,,,,5,,,,,5,20,[Gasvac],1,1,135,4,25,25,25,25,25,6,546
+EZZZZZL,N,Doritus Rudd IX,,,,,Y,1,,,,,,0,primitive,,advanced,Y,detected,Y,Y,Y,,,4,,,,,,,,,,,,,,,3,,,,,,,,2,,9,,,,,,2,,4,,,5,,11,20,[Gasvac],1,1,140,4,25,25,25,25,25,11,581
+EZZZZZY,N,Iota Crematorius VII,Y,,,,,1,,,,,,0,none,,primitive,,detected,Y,Y,Y,,,3,1,,,,,,,,,,,,,,,,,2,,,,,,,6,,,,,,,,4,7,,2,1,14,20,[Gasvac],1,1,153,4,25,25,25,25,25,24,672
+EZZZZZC,N,Scabrus Taylor VIII,,,,Y,,1,,,,,,0,primitive,Y,primitive,,none,,,Y,Y,,2,3,,,,1,,,,,,,,,,,,,2,,,,,,,8,,5,,,,,,,,,4,3,12,20,[Gasvac],1,1,131,4,25,25,25,25,25,2,518
+EZZZZZD,N,Lambda Sanford I,Y,,,,,1,,,,,,0,primitive,,advanced,Y,none,,Y,,Y,,4,3,,,,,,,1,,,,,,,5,,,,,,,,3,,16,,,,,,4,,,,,,,4,20,[Gasvac],1,1,132,4,25,25,25,25,25,3,525
+EZZZZZE,N,Pi Equipajus II,,,,,Y,1,,,,,,0,none,,advanced,Y,none,,,,,,6,3,7,,,,,,,,,,,,,,,,,,,,,,,16,,,,,,4,,,,,,,4,20,[Gasvac],1,1,133,4,25,25,25,25,25,4,532
+EZZZZZF,N,Omicron Billclintonus I,Y,,,,,1,,,,,,0,none,,none,,detected,,,,Y,,7,5,6,,,1,,,,,,,,,,,,,,,,1,Salad (21.7k),,,20,,,,,,,,,,,,,0,20,[Gasvac],1,1,134,4,25,25,25,25,25,5,539
+EZZZZZH,N,Zeta Hernandez V,,Y,,,,1,,,,,,0,none,,primitive,Y,none,,,,,,5,4,7,,,,,,,,,,,,,,,,,,,,,,,16,,,,,4,,,,,,,,4,20,[Gasvac],1,1,136,4,25,25,25,25,25,7,553
+EZZZZZJ,N,Phi Romero VI,,,Y,,,1,,,,,,0,none,,primitive,,none,,Y,Y,Y,,2,5,,,,,,,,,1,,,,,,,,1,,,,,,,9,,,,,,,,,2,4,5,,11,20,[Gasvac],1,1,138,4,25,25,25,25,25,9,567
+EZZZZZK,N,Sigma Diverticulus IV,,,,,Y,1,,,,,,0,none,,anomalous,Y,none,,,Y,,,4,6,3,,,,,,,,,,,,,,,,,,,,,,3,16,,,,,,,4,,,,,,4,20,[Gasvac],1,1,139,4,25,25,25,25,25,10,574
+EZZZZZM,N,Epsilon Nicholson VII,Y,,,,,1,,,,,,0,primitive,Y,none,,detected,,Y,Y,,,4,2,,,,,,,,,,,,,,,,,,,,1,Booze (13.8k),4,3,14,,6,,,,,,,,,,,6,20,[Gasvac],1,1,141,4,25,25,25,25,25,12,588
+EZZZZZO,N,Mu Washington II,,,y,,,1,,,,,,0,none,,none,,none,,Y,,,,4,6,5,,,,,,,,,,,,,,,,,,,,,5,,20,,,,,,,,,,,,,0,20,[Gasvac],1,1,143,4,25,25,25,25,25,14,602
+EZZZZZP,N,Theta Goldthwait IX,,,Y,,,1,,,,,,0,primitive,Y,primitive,Y,none,,,Y,,,1,4,,,,,,,,,,,,,,,,,,,,,,,,5,,4,,,4,,,,,,7,,15,20,[Gasvac],1,1,144,4,25,25,25,25,25,15,609
+EZZZZZR,N,Tau Nichols IV,,,,Y,,1,,,,,,0,none,,advanced,Y,detected,,,Y,,,4,4,,,,,,,,,,,,,,,,,,,,1,Booze (25.2k),,,9,,,,,,3,,,,,3,5,11,20,[Gasvac],1,1,146,4,25,25,25,25,25,17,623
+EZZZZZS,N,Gamma Paulreiserus IX,,Y,,,,1,,,,,,0,none,,advanced,Y,none,,Y,,Y,,2,2,6,,,,,,1,,,,,,,,,,,,,,,,,11,,,,,,2,,,7,,,,9,20,[Gasvac],1,1,147,4,25,25,25,25,25,18,630
+EZZZZZV,N,Eta Tyler XI,,,,Y,,1,,,,,,0,advanced,Y,primitive,Y,none,,,Y,,,4,3,,,,,,,,,,,,,,,,,,,,,,,,7,,,3,,3,,,,,,3,4,13,20,[Gasvac],1,1,150,4,25,25,25,25,25,21,651
+EZZZZZW,N,Cattusdoggus Thomas XI,,,,Y,,1,,,,,,0,primitive,Y,none,,none,,Y,Y,Y,,1,3,,,,,,,,,,,,1,,,,,,,,,,4,,9,,3,,,,,,,,,4,4,11,20,[Gasvac],1,1,151,4,25,25,25,25,25,22,658
+EZZZZZX,N,Dominatrix Rodriguez X,,Y,,,,1,,,,,,0,primitive,,none,,none,,Y,,,,3,2,4,,,,,,,,,,,,,3,,,,,,,,,,12,,,,,,,,,8,,,,8,20,[Gasvac],1,1,152,4,25,25,25,25,25,23,665
+FZZZZZX,N,Psi Leprus IV,,,,,Y,1,,,,Y,,1,primitive,,primitive,,none,,,Y,Y,,2,3,,,,,,,,1,,,,,,3,,,4,,,,,,,13,,,,,,,,,,,7,,7,20,[Gasvac],2,2,153,5,25,25,25,25,25,23,666
+EZZZZZI,N,Belletaco Brooks II,,,,Y,,1,,,,,,0,none,,primitive,Y,none,,Y,Y,Y,,2,3,,,,,,,,,,,,,,,,,,,,,,4,,9,,,,,4,,,,,,7,,11,20,[Gasvac] CLAIMS THERE ARE RUINS HERE -- FOUND NONE.,1,1,137,4,25,25,25,25,25,8,560
+FREEDOM,N,Omicron Stemple VII,,,Y,,,1,,,,,Y,1,primitive,,none,,none,,Y,Y,,,3,3,,,,,,,,,,,,,,3,,,,,,,,,,9,,,,,,,,,2,3,2,4,11,20,1 alien gemstone,2,2,59,5,17,4,4,3,14,12,250
+FRIDAYZ,N,Kappa Saladus IX,,Y,,,,1,,Y,,,,1,advanced,Y,primitive,,none,,,Y,,,2,5,,,,,,,,,,,,,,,,,3,,,,,,,10,,,4,,,,,,,,1,5,10,20,1 alien gemstone,2,2,82,5,17,8,3,0,24,25,394
+ESPLODE,N,Beta Pannus VII,,Y,,,,1,,,,,,0,primitive,,primitive,,detected,Y,Y,Y,,,2,,,,,,,,,,,,,,,3,,,4,,,,,3,3,15,,,,,,,,5,,,,,5,20,1 gemstone,1,1,69,4,18,15,11,14,3,4,245
+FATHERS,N,Xi Madison IX,,,,,Y,1,Y,,,,,1,none,,none,,detected,Y,Y,Y,,,1,4,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,4,3,2,4,2,15,20,1 gemstone,2,2,70,5,0,19,7,4,17,18,338
+DACTYLS,N,Phi Reynolds VII,,,,Y,,1,,,,,,0,none,,anomalous,,none,,,,,,6,6,4,,,,,,,,,,,,,,,,,,4,,,,,20,,,,,,,,,,,,,0,20,1 gemstone,1,1,77,3,0,2,19,24,11,18,397
+DADADAD,N,Fritus Thomas VI,,,,,Y,1,,,,,,0,primitive,Y,advanced,Y,none,,Y,,,,2,5,,,,,,,,,,,,,,,,,,,,,,3,,10,,5,,,,5,,,,,,,10,20,1 gemstone,1,1,12,3,0,3,0,3,0,3,48
+DCBABCD,N,Fritus Thomas VI,,,,,Y,1,,,,,,0,,,advanced,,none,,,,,,4,6,6,,,,,,,,,,,,,,,,,4,,,,,,20,,,,,,,,,,,,,0,20,1 gemstone,1,1,12,3,2,1,0,1,2,3,48
+DQAAAAA,N,Epsilon Abbrevianus III,,,Y,,,1,,,,,,0,advanced,,none,,none,,Y,,,,4,4,2,,,,,,,,,,,,,,3,,,,,,,,,13,,,,,,,,,5,2,,,7,20,1 gemstone,1,1,19,3,16,0,0,0,0,0,35
+DRAGOON,N,Lambda Cromulus V,,,,,Y,1,,,,,,0,primitive,,advanced,Y,none,,Y,,Y,,5,3,,,,,,,,,1,,,,,2,,,,,,,,4,,15,,,,,,5,,,,,,,5,20,1 gemstone,1,1,67,3,17,0,6,14,14,13,306
+DSCHOST,N,Beta Allopecius I,,,,,Y,1,,,,,,0,advanced,Y,primitive,,none,,Y,Y,Y,,2,6,,,,,,,1,,,,,,,,,,2,,,,,2,,13,,,2,,,,,,,,3,2,7,20,1 gemstone,1,1,81,3,18,2,7,14,18,19,384
+DXAAAAA,N,Tau Moore IV,,,,Y,,1,,,,,,0,primitive,Y,advanced,Y,detected,,,Y,,,3,3,,,,,,,,,,,,,,,,,,,,1,Salad (25.5k),,,7,,2,,,,4,,,7,,,,13,20,1 gemstone,1,1,26,3,23,0,0,0,0,0,49
+GVDPTEK,N,Pannus Johnson III,,Y,,,,1,,Y,,,,1,primitive,,primitive,,none,,,,,,4,4,5,,,,,,,,,,,,,3,,,4,,,,,,,20,,,,,,,,,,,,,0,20,1 gemstone,2,2,78,6,21,3,15,19,4,10,306
+DEEPSKY,N,Upsilon Meadows VII,,,,Y,,1,,,,,,0,advanced,Y,none,,none,,Y,,Y,,3,4,,,,1,,,,,,,,,,,,,,,,,,,,8,,,3,,,,,,7,,,,10,18,"1 gemstone, 192 pages of SpaceGate Research",1,1,78,3,4,4,15,18,10,24,401
+DBEBFJC,N,Phi Adams X,,,Y,,,1,,,,,,0,primitive,,none,,none,,Y,,Y,,3,3,2,,,,,,,,1,,,,,3,,,,,,,,,,12,,,,,,,,,8,,,,8,20,"1 gemstone, Please Baby Baby Please",1,1,25,3,1,4,1,5,9,2,114
+GATEWAY,N,Alpha Hamburguesus III,Y,,,,,1,,,,,Y,1,advanced,Y,primitive,Y,,,Y,,Y,,5,3,,,,,,,,1,,,,,,,,,,,,,,,,9,,,2,,2,,,,7,,,,11,20,101 Research,2,2,75,6,0,19,4,22,0,24,357
+DEFGHIJ,N,Lambda Belvedere IX,,,,Y,,1,,,,,,0,primitive,,advanced,,none,,Y,Y,Y,,1,2,,,,,,,,,,,1,,,3,,,,4,,,,2,,13,,,,,,,,,,,4,3,7,20,"1100 moxie, plasma rifle, 288 pages of research with geo kit",1,1,42,3,4,5,6,7,8,9,196
+FRAISER,N,Bob Franklin III,,,,Y,,1,,,,,Y,1,primitive,,primitive,Y,detected,Y,,Y,Y,,3,3,,,,,,,,,,,,,1,2,,,,,,,,,,9,,,,,3,,,4,,,4,,11,20,137 research,2,2,69,5,17,0,8,18,4,17,304
+FARQUAR,N,Eta Molotov X,,,,Y,,1,,Y,,,,1,none,,primitive,Y,detected,,,Y,Y,,5,3,,,,,,,,1,,,,,,,,,,,,1,salad (15.2k),,,10,,,,,3,,,,,,7,,10,20,156 pages of research without a geological kit,2,2,75,5,0,17,16,20,0,17,339
+DUMBASS,N,Epsilon McMahon I,,,,,Y,1,,,,,,0,primitive,,primitive,Y,none,,,,,,4,4,4,,,,,,,,,,,,,4,,,,,,,,,,16,,,,,4,,,,,,,,4,20,164 pages,1,1,72,3,20,12,1,0,18,18,317
+FLUMMOX,N,Pi Trixrabbitus I,,,,Y,,1,,Y,,,,1,primitive,Y,,,,,,Y,,,4,2,5,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,6,,9,9,2 alien gemstones,2,2,97,5,11,20,12,12,14,23,440
+GETDATA,N,Upsilon Humptydumptus X,Y,,,,,1,,Y,,,,1,none,,none,,none,,,Y,,,4,6,6,,,,,,,,,,,,,,,,,,,,,,4,20,,,,,,,,,,,,,0,20,"2 gems, no combats",2,2,51,6,4,19,3,0,19,0,197
+DWADLER,N,Sigma Harris IX,Y,,,,,1,,,,,,0,primitive,Y,none,,none,,Y,,Y,,2,3,5,,,1,,,,,,,,,,,,,,,,,,,,11,,5,,,,,,,4,,,,9,20,2 gemstone; 340 pages of Spacegate Research,1,1,60,3,22,0,3,11,4,17,257
+DAMFINO,N,Mu Bob III,,Y,,,,1,,,,,,0,none,,primitive,,none,,,,Y,,6,4,5,,,,1,,,,,,,,,,,,4,,,,,,,20,,,,,,,,,,,,,0,20,2 gemstones,1,1,55,3,0,12,5,8,13,14,275
+DASBOOT,N,Chi Hippidipsus IX,,,,Y,,1,,,,,,0,primitive,,none,,none,,,,Y,,4,3,7,,,,,,,1,,,,,,5,,,,,,,,,,20,,,,,,,,,,,,,0,20,2 gemstones,1,1,69,3,0,18,1,14,14,19,348
+FAGGOTS,N,Perfunctus Wilson VI,Y,,,,,1,,,,Y,,1,none,,none,,none,Y,,,,,6,2,4,,,,,,,,,,,,,,,,,,,,,,,12,,,,,,,,,6,2,,,8,20,2 gemstones,2,2,68,5,0,6,6,14,19,18,357
+FISHIES,N,Rho Reynolds VI,,Y,,,,1,,,,,Y,1,anomalous,,none,,none,,Y,,Y,,4,3,3,,1,,,,,,,,,,,,,5,,,,,,4,,20,,,,,,,,,,,,,0,20,2 gemstones,2,2,68,5,8,18,7,8,4,18,293
+GHIJKLM,N,Epsilon Fritus V,,,,Y,,1,,,,Y,,1,advanced,Y,none,,none,,,,,,5,3,5,,,,,,,,,,,,,,,,,,,,,,,13,,7,,,,,,,,,,,7,20,2 gemstones,2,2,63,6,7,8,9,10,11,12,280
+GNNVUTF,N,Kappa Rodriguez XI,,,,Y,,1,Y,,,,,1,primitive,Y,none,,none,,,Y,Y,,5,4,4,,,1,,,,,,,,,,,,,,,,,,,3,17,,3,,,,,,,,,,,3,20,2 gemstones. murderbot data core and place to insert core in one place!,2,2,97,6,13,13,21,20,19,5,404
+GALLIUM,N,Xi Capulet V,,,Y,,,1,,Y,,,,1,advanced,,primitive,Y,,,,Y,,,6,3,,,,,,,,,,,,,,,2,,,,,,,,3,14,,,,,6,,,,,,,,6,20,220 Research,2,2,68,6,0,11,11,8,20,12,327
+GRIMACE,N,Tau Martinez VII,,,,,Y,1,,,,Y,,1,none,,advanced,Y,detected,Y,,Y,,,3,2,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,4,,4,,,3,4,15,20,277 pages of research,2,2,49,6,17,8,12,0,2,4,152
+EURONDA,N,Rho Durden VI,,,Y,,,1,,,,,,0,primitive,,primitive,Y,,,,Y,,,3,3,,,,,,,,,,,,,,2,,,,,,,,,,8,,,,,5,,,,,,7,,12,20,278 pages,1,1,71,4,20,17,14,13,3,0,234
+FFFFFFF,N,Pi Leprus X,Y,,,,,1,,,Y,,,1,none,,none,,none,,,,Y,,4,5,10,,,,1,,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,0,20,3 Gemstones / 558 Pages; 2nd person: 3 gem/549 pages,2,2,35,5,5,5,5,5,5,5,140
+FAIREST,N,Delta Draper II,,Y,,,,1,Y,,,,,1,none,,advanced,,detected,,,,,,6,5,5,,,,,,,,,,,,,,,,,4,,,medicine (13k),,,20,,,,,,,,,,,,,0,20,306 pages of Spacegate Research gemstone x1  with geo kit,2,2,71,5,0,8,17,4,18,19,358
+DRIZZLY,N,Pacmanicus Smith I,,,,,Y,1,,,,,,0,primitive,,advanced,,none,,Y,,,,5,3,,,,,,,,,,,,,,4,,,,3,,,,5,,20,,,,,,,,,,,,,0,20,328 pages of Spacegate Research w/geo kit - gemstone (x1),1,1,113,3,17,8,25,25,11,24,520
+FOEODXD,N,Tau Dyxichix IX,Y,,,,,1,,Y,,,,1,primitive,,primitive,Y,none,,,,,,3,3,4,,,,,,,,,,,,,6,,,,,,,,,,16,,,,,4,,,,,,,,4,20,"341 research, 2 gems.",2,2,66,5,14,4,14,3,23,3,275
+GRAVITY,N,Iota Saladus XI,,,,Y,,1,Y,,,,,1,primitive,Y,advanced,Y,,,Y,,,,4,6,,,,,,,,,,,,,,,,,,,,,,5,,15,,2,,,,3,,,,,,,5,20,"344 pages, 1 gem",2,2,95,6,17,0,21,8,19,24,446
+GAYPWND,N,Alpha Dyxichix VII,,,Y,,,1,,,Y,,,1,advanced,Y,primitive,Y,,,,,Y,,4,7,9,,,,,,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,0,20,"364 research (2 gem), 20% procrastinator with murdebot core; 2nd person: 2 gems, no skill increase despite 4 murderbot cores in inventory; 3rd person: no ruins, 352 research (1 gem)",2,2,83,6,0,24,15,22,13,3,347
+EYEBALL,N,Omega Woodward V,,,Y,,,1,,,,,,0,none,,primitive,,none,,,Y,Y,,2,4,3,,,,,,,,,,,,1,,,,4,,,,,,,14,,,,,,,,,,,3,3,6,20,371 pages,1,1,55,4,24,4,1,0,11,11,211
+ELDRICH,N,Nu Abbrevianus X,,Y,,,,1,,,,,,0,none,,none,,none,,,Y,,,3,4,5,,,,,,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,8,,8,20,379 pages of Spacegate Research,1,1,52,4,11,3,17,8,2,7,204
+EZZZZZZ,N,Alpha Gromulus V,,,Y,,,1,,,,,,0,primitive,,anomalous,,none,,Y,,Y,,3,4,,,,,,,,,,,,,1,3,,,,,3,,,,,14,,,,,,,,,4,2,,,6,20,4 gemstones - 568 pages [Gasvac],1,1,154,4,25,25,25,25,25,25,679
+DYNAMIC,N,Misogynus Thompson IX,Y,,,,,1,,,,,,0,primitive,,none,,none,,Y,,Y,,3,1,4,,1,,,,,,,,,,,3,,,,,,,,,,12,,,,,,,,,4,4,,,8,20,411 pages,1,1,62,3,24,13,0,12,8,2,212
+EAAAAAA,N,Alpha McMahon II,,Y,,,,1,,,,,,0,none,,none,,none,,,,Y,,8,5,6,,,,,,,,,,,,1,,,,,,,,,,,20,,,,,,,,,,,,,0,20,5 gemstones!,1,1,4,4,0,0,0,0,0,0,4
+FGHIJKL,N,Phi Taylor VIII,,,,Y,,1,,Y,,,,1,primitive,,advanced,Y,detected,Y,Y,,,,2,2,,,,,,,,,,,,,,2,,,,,,,,,,6,,,,,,3,,5,6,,,,14,20,"54 pages or resaerch, don't bother",2,2,56,5,6,7,8,9,10,11,252
+DANGERE,N,Iota McMahon XI,,,,,Y,1,,,,,,0,primitive,,primitive,,none,,Y,,Y,,3,2,,,,,,,,1,,,,,,4,,,4,,,,,,,14,,,,,,,,,6,,,,6,20,68 pages of research. MEH,1,1,47,3,0,13,6,4,17,4,216
+ELYSIUM,N,Delta Sanford I,Y,,,,,1,,,,,,0,advanced,Y,primitive,Y,detected,Y,Y,Y,,,3,,,,,,,,,,,,,,,,,,,,,,,,,3,,,3,,4,,,12,9,,9,,37,40,74 pages of Spacegate Research,1,1,97,4,11,24,18,8,20,12,414
+GAGYGAX,N,Gromulus Roosevelt I,,,,,Y,1,,,,,Y,1,primitive,,primitive,Y,detected,Y,,,,,3,3,,,,,,,,,,,,,,3,,,,,,,,,,9,,,,,3,,,8,,,,,11,20,78 RESEARCH,2,2,65,6,0,6,24,6,0,23,311
+EXOTECH,N,Kappa Perfunctus VIII,,,Y,,,1,,,,,,0,none,,advanced,Y,detected,,Y,,,,3,4,,,,,,,,,,,,,,,,,,,,1,Booze (18K),,,8,,,,,,3,,,6,3,,,12,20,82 pages,1,1,73,4,23,14,19,4,2,7,249
+EEGEEGR,N,Hippidipsus Hall V,Y,,,,,1,,,,,,0,advanced,Y,none,,none,,,,Y,,6,5,2,,,1,,,,,,,,,,,,,,,,,,,,14,,,6,,,,,,,,,,6,20,alien gemstone (x1),1,1,45,4,4,6,4,4,6,17,221
+EMPATHY,N,Pi Dyxichix X,,,,Y,,1,,,,,,0,none,,none,,none,,,,Y,,8,3,8,,,,,,,1,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,0,20,"All rocks except for one ""Mother May I."" 746 pages, 5 gems",1,1,81,4,12,15,0,19,7,24,378
+FOEODCX,N,Tau Bush I,Y,,,,,1,,Y,,,,1,none,,none,,none,,,,,,7,6,7,,,,,,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,0,20,"all rocks, all the time",2,2,65,5,14,4,14,3,2,23,289
+FLATRTH,N,Kappa Miller X,Y,,,,,1,,Y,,,,1,primitive,Y,none,,detected,Y,Y,Y,,,3,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,1,,,1,4,"best one, also good amount of spants",2,2,78,5,11,0,19,17,19,7,351
+EELEVEN,N,Chi Bush X,,,,,Y,1,,,,,,0,none,,none,,none,,Y,Y,,,3,3,4,,,,,,,,,,,,,,,,,,,,,,3,13,,,,,,,,,7,,,,7,20,bring geo kit,1,1,61,4,4,11,4,21,4,13,281
+EZHEART,N,Zeta Stemple VIII,,,,,Y,1,,,,,,0,anomalous,Y,none,,detected,,,,,,5,5,3,,,,,,,,,,,,,,,,,,,1,Medicine (14.4K),,,14,,,,6,,,,,,,,,6,20,gem x2,1,1,76,4,25,7,4,0,17,19,326
+ESPANTS,N,Mousketeerus Washington II,,,Y,,,1,,,,,,0,advanced,,primitive,Y,none,,,,,,4,3,3,,,,,,,,,,,,,,4,,,,,,,,,14,,,,,6,,,,,,,,6,20,gemstone (x1),1,1,87,4,18,15,0,13,19,18,390
+FELEVEN,N,Kappa Crematorius VIII,Y,,,,,1,Y,,,,,1,none,,primitive,,none,,Y,,Y,,1,4,1,,,,,,,,1,,,,,,,,5,,,,,,,12,,,,,,,,,8,,,,8,20,Last visit-geo kit produced 25 rock and 1 gem,2,2,62,5,4,11,4,21,4,13,282
+GLITTER,N,Xi King III,,,,Y,,1,,Y,,,,1,none,,none,,none,,,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,0,0,murderbot drones and rocks.,2,2,84,6,11,8,19,19,4,17,366
+GRACIAS,N,Cancerus Woodward IV,,,,Y,,1,Y,,,,,1,primitive,Y,none,,none,,,,,,5,4,4,,,,,,,,,,,,,,,,,,,,,,,13,,7,,,,,,,,,,,7,20,"no gems, 177 pages... not a great planet",2,2,51,6,17,0,2,8,0,18,214
+GELEVEN,N,Sigma Nipperus IX,,,,Y,,1,,,Y,,,1,none,,none,,none,,Y,,,,4,3,4,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,,,,5,4,,,9,20,no gemstones for my run through,2,2,63,6,4,11,4,21,4,13,283
+DLBYIKW,N,Cardboardius Taylor IV,Y,,,,,1,,,,,,0,advanced,Y,primitive,Y,detected,,Y,Y,,,2,,,,,,,,,,,,,,,,,,,,,1,Medicine (11k),,,3,,,4,,4,,,,4,,5,,17,20,"No gemstones, 8 alien rock sample; 4 alien plant fibers; 5 toenails; 6 memory chips",1,1,79,3,11,1,24,8,10,22,378
+DINGBAT,N,Xi Molotov VII,,,Y,,,1,,,,,,0,primitive,,primitive,,none,,,,,,3,3,5,,,,,,,,,,,,,5,,,4,,,,,,,20,,,,,,,,,,,,,0,20,No gemstones. Only rocks and primitive life.,1,1,50,3,8,13,6,1,0,19,220
+DBANDIT,N,Phi Gronulus VIII,,Y,,,,1,,,,,,0,advanced,,primitive,,detected,Y,Y,Y,Y,,,,,,,,,,,,,,,1,,,3,,4,,,,,,,8,,,,,,,,5,2,,5,,12,20,no geology!,1,1,47,3,1,0,13,3,8,19,253
+DAVECAT,N,Slobulus Davis IX,,,,Y,,1,,,,,,0,none,,none,,none,,,, ,,7,7,6,,,,,,,,,,,,, ,,,,,,,,,,20,,,,,,,,,,,,,0,20,nothing but geology here; 2 gemstones,1,1,49,3,0,21,4,2,0,19,225
+EQUINOX,N,Delta Mexicanus X,,,,Y,,1,,,,,,0,none,,primitive,Y,detected,Y,,Y,Y,,3,1,,,,,,,1,,,,,,,,,,,,,,,,,5,,,,,4,,,5,,,5,,14,19,"Should be 20 advs with inclusion of ""Time Enough at Last""",1,1,98,4,16,20,8,13,14,23,438
+EGGBURT,N,Iota Zevon IV,,,,,Y,1,,,,,,0,anomalous,Y,anomalous,Y,none,,,Y,,,3,4,,,,,,,,,,,,,,,,,,,,,,,,7,,,,4,,,4,,,,5,,13,20,"Yay, Eggbert!",1,1,73,4,6,6,1,20,17,19,373
+DALLYAA,N,Dudebaddus Haggard III,Y,,,,,1,,,,,,0,primitive,Y,none,,detected,Y,Y,Y,,,5,3,,,,,,,,,,,,,,,,,,,,,,,,8,,3,,,,,,9,9,,11,,32,40,,1,1,49,3,0,11,11,24,0,0,200
+FLYTRAP,N,Molotov Woodward II,,Y,,,,1,,Y,,,,1,advanced,Y,none,,detected,Y,,Y,,,2,4,,,,,,,,,,,,,,,,,,,,,,,2,8,,,3,,,,,9,,,,,12,20,,2,2,91,5,11,24,19,17,0,15,365
+GGGGGGG,N,Psi Nichols III,,,,Y,,1,,,Y,,,1,none,,none,,detected,Y,,,,,5,2,4,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,,,9,,,,,9,20,,2,2,42,6,6,6,6,6,6,6,168
+FUGCYDO,N,Bubblewrapium Woodward VI,Y,,,,,1,,,,,Y,1,none,,primitive,Y,detected,Y,,,,,2,4,2,,,,,,,,,,,,,,,,,,,,,,,8,,,,,4,,,8,,,,,12,20,,2,2,74,5,20,6,2,24,3,14,307
+GTHWAIT,N,Kappa Bananaramus IV,,Y,,,,1,,,,,Y,1,none,,none,,detected,Y,,Y,Y,,3,1,4,,,,,,,,,,1,,,,,,,,,,,,,9,,,,,,,,8,,,3,,11,20,,2,2,81,6,19,7,22,0,8,19,334
+GZAAAAA,N,Omega Linoleus X,Y,,,,,1,,Y,,,,1,none,,primitive,,detected,Y,,,,,3,1,5,,,,,,,,,,,,,,,,3,,,,,,,12,,,,,,,,8,,,,,8,20,,2,2,31,6,25,0,0,0,0,0,56
+GFYLNIM,N,Omega Phlebitis X,,,,,Y,,,,Y,,,,none,,none,,detected,Y,,,,,5,4,4,,,,,,,,,,,,,,,,,,,,,,,13,,,,,,,,7,,,,,7,20,,2,0,79,6,5,24,11,13,8,12,329
+GLISTER,N,Iota Perambulus V,,Y,,,,1,,,,,Y,1,none,,none,,detected,Y,,Y,Y,,3,2,4,,,,,,,,,,,,,,,,,,,,,,,9,,,,,,,,7,,,4,,11,20,,2,2,83,6,11,8,18,19,4,17,362
+DACACAD,N,Zeta Equipajus VII,,,Y,,,1,,,,,,0,primitive,,advanced,Y,detected,Y,,Y,,,4,2,,,,,,,,,,,,,,1,,,,,,,,,2,9,,,,,,5,,6,,,,,11,20,,1,1,10,3,0,2,0,2,0,3,40
+DEADJIM,N,Iota Conjunctivitus I,Y,,,,,1,,,,,,0,advanced,Y,none,,detected,Y,,,Y,,3,4,3,,,,1,,,,,,,,,,,,,,,,,,,11,,,3,,,,,6,,,,,9,20,,1,1,39,3,4,0,3,9,8,12,200
+DEDEDED,N,Lambda Shafer I,,Y,,,,1,,,,,,0,none,,primitive,Y,detected,Y,,,,,3,4,3,,,,,,,,,,,,,,,,,,,,,,,10,,,,,4,,,6,,,,,10,20,,1,1,24,3,4,3,4,3,4,3,96
+DRIZZIT,N,Blivebarkerus Williams X,,,,Y,,1,,,,,,0,none,,primitive,,detected,Y,,,,,3,3,4,,,,,,,,,,,,,,,,4,,,,,,,14,,,,,,,,6,,,,,6,20,,1,1,105,3,17,8,25,25,8,19,467
+DSLPYWG,N,Omega Draper II,Y,,,,,1,,,,,,0,advanced,Y,primitive,Y,detected,Y,,,,,3,3,,,,,,,,,,,,,,,,,,,,,,,,6,,,4,,4,,,6,,,,,14,20,,1,1,99,3,18,11,15,24,22,6,426
+EASYACE,N,Hippidipsus Wallace V,,,Y,,,1,,,,,,0,advanced,Y,primitive,,detected,Y,,,Y,,3,4,,,,,1,,,,,,,,,,,,3,,,,,,,11,,,3,,,,,6,,,,,9,20,,1,1,52,4,0,18,24,0,2,4,194
+EEEEEEA,N,Omega Stemple II,,,Y,,,1,,,,,,0,none,,none,,detected,Y,,Y,Y,,3,3,3,,,,,,,,1,,,,,,,,,,,,,,,10,,,,,,,,6,,,4,,10,20,,1,1,24,4,4,4,4,4,4,0,84
+EXYZIPS,N,Bob Thomas I,,,,Y,,1,,,,,,0,advanced,Y,primitive,Y,detected,Y,,,,,2,4,,,,,,,,,,,,,,,,,,,,,,,,6,,,4,,4,,,6,,,,,14,20,,1,1,117,4,23,24,25,8,15,18,478
+FAAAAAB,N,Lambda Reynolds V,,,,Y,,1,,,,,Y,1,advanced,Y,advanced,,detected,Y,,Y,,,2,2,,,,,,,,,,,,,,,,,,3,,,,,,7,,,2,,,,,6,,,3,2,13,20,,2,2,6,5,0,0,0,0,0,1,12
+FABEQAA,N,Omicron Garcia VI,Y,,,,,1,,Y,,,,1,advanced,,none,,detected,Y,,,,,4,2,3,,,,,,,,,,,,,,5,,,,,,,,,14,,,,,,,,6,,,,,6,20,,2,2,26,5,0,1,4,16,0,0,104
+FIREFLY,N,Kappa Smith X,,,,,Y,1,,,,,Y,1,primitive,Y,none,,detected,Y,,Y,Y,,4,3,,,1,,,,,,,,,,,,,,,,,,,,,8,,2,,,,,,6,,,1,3,12,20,,2,2,74,5,8,17,4,5,11,24,347
+FJOOOOX,N,Gamma Fredfordus XI,,,,Y,,1,,Y,,,,1,advanced,,none,,detected,Y,,Y,,,2,3,,,,,,,,,,,,,,,3,,,,,,,,,8,,,,,,,,6,,,6,,12,20,,2,2,93,5,9,14,14,14,14,23,436
+FLEEING,N,Alpha Bearthurus V,,,Y,,,1,,,,Y,,1,advanced,Y,primitive,Y,detected,Y,,Y,Y,,2,2,,,,,1,,,,,,,,,,,,,,,,,,,5,,,2,,2,,,6,,,1,4,15,20,,2,2,51,5,11,4,4,8,13,6,215
+FRAGILE,N,Upsilon Humptydumptus X,Y,,,,,1,,Y,,,,1,none,,primitive,Y,detected,Y,,Y,,,3,2,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,2,,,6,,,5,2,15,20,,2,2,51,5,17,0,6,8,11,4,197
+FRIENDS,N,Alpha Milkius I,Y,,,,,1,,,,,Y,1,anomalous,,none,,detected,Y,,,,,3,4,3,,,,,,,,,,,,,,,,,,,,,,,10,,,,4,,,,6,,,,,10,20,,2,2,68,5,17,8,4,13,3,18,288
+GEMINIS,N,Omicron Cancerus X,,Y,,,,1,,,,Y,,1,advanced,,primitive,Y,detected,Y,Y,,,,2,1,,,,,,,,,,,,,,,4,,,,,,,5,,12,,,,,2,,,6,,,,,8,20,,2,2,69,6,4,12,8,13,8,18,321
+GHASTLY,N,Omicron Paulreiserus V,,,Y,,,1,Y,,,,,1,primitive,Y,advanced,Y,detected,Y,Y,,Y,,2,3,,,,,,,,,,,1,,,,,,,,,,,2,,8,,3,,,,3,,6,,,,,12,20,,2,2,85,6,7,0,18,19,11,24,421
+GRAYSON,N,Waldorfus Wilson X,,Y,,,,1,,,Y,,,1,advanced,Y,none,,detected,Y,,Y,Y,,2,3,,,,,1,,,,,,,,,,,,,,,,,,5,11,,,,3,,,,6,,,,,9,20,,2,2,92,6,17,0,24,18,14,13,401
+GRLCRYA,N,Omega Nipperus VIII,,,,Y,,1,Y,,,,,1,primitive,Y,primitive,Y,detected,Y,,Y,Y,,2,3,,,,,,,,,,,,1,,,,,,,,,,,,6,,3,,,2,,,6,,,3,,14,20,,2,2,77,6,17,11,2,17,24,0,310
+DAAFAAA,N,Nu Blivebarkerus XI,,Y,,,,1,,,,,,0,primitive,Y,primitive,Y,detected,Y,Y,,Y,,1,3,,,,1,,,,,,,,,,,,,,,,,,,,5,,1,,,2,,,5,4,3,,,15,20,,1,1,8,3,0,0,5,0,0,0,23
+DKKTGXG,N,Mousketeerus Rudd IX,,,Y,,,1,,,,,,0,none,,advanced,Y,detected,Y,Y,,Y,,4,3,,,,,,,,1,,,,,,,,,,,,,,,,8,,,,,,2,,5,5,,,,12,20,,1,1,77,3,10,10,19,6,23,6,339
+DPTXYFM,N,Cardboardius Disraeli IX,,,,Y,,1,,,,,,0,primitive,,none,,detected,Y,Y,Y,,,3,2,,,,,,,,,,,,,,,,,,,,,,,,5,,,,,,,,5,6,,4,,15,20,,1,1,101,3,15,19,23,24,5,12,416
+DVAAAAA,N,Phi Fritus X,Y,,,,,1,,,,,,0,advanced,Y,advanced,Y,detected,Y,Y,,,,2,1,,,,,,,,,,,,,,,,,,,,,,,,3,,,4,,,4,,5,4,,,,17,20,,1,1,24,3,21,0,0,0,0,0,45
+ELEMENT,N,Dickbutkus Anderson XI,,,,Y,,1,,,,,,0,primitive,Y,anomalous,Y,detected,Y,,Y,Y,,2,2,,,,,1,,,,,,,,,,,,,,,,,,,5,,3,,,,,2,5,,,2,3,15,20,,1,1,67,4,11,4,12,4,13,19,317
+EXASYNF,N,Xi Lepidopterus VII,,,,Y,,1,,,,,,0,primitive,,primitive,Y,detected,Y,Y,Y,,,2,,,,,,,,,,,,,,,4,,,,,,,,,3,9,,,,,1,,,5,5,,,,11,20,,1,1,87,4,23,0,18,24,13,5,355
+FUZZILY,N,Sigma Lennon V,,,,,Y,1,,Y,,,,1,advanced,,none,,detected,Y,,Y,,,3,3,,,,,,,,,,,,,,,3,,,,,,,,,9,,,,,,,,5,,,6,,11,20,,2,2,118,5,20,25,25,8,11,24,494
+GZWEAPU,N,Kappa Stemple XI,,,Y,,,1,,Y,,,,1,advanced,,none,,detected,Y,,,Y,,3,3,,,,1,,,,,,,,,,,1,,,,,,,3,4,15,,,,,,,,5,,,,,5,20,,2,2,92,6,25,22,4,0,15,20,368
+DDDDDDD,N,Delta Taylor XI,,,,,Y,1,,,,,,0,primitive,,advanced,,detected,Y,,Y,,,7,1,,,,,,,,,,,,,,1,,,,3,,,,,,12,,,,,,,,4,,,2,2,8,20,,1,1,21,3,3,3,3,3,3,3,84
+DHAAAAA,N,Omega Benedict II,,,,Y,,1,,,,,,0,none,,primitive,Y,detected,Y,Y,,Y,,3,2,,,,1,,,,,,,,,,,,,,,,,,,,6,,,,,3,,,4,7,,,,14,20,,1,1,10,3,7,0,0,0,0,0,17
+DKKWVUG,N,Omega Cheetus VIII,,,,Y,,1,,,,,,0,primitive,,primitive,Y,detected,Y,,Y,,,5,2,,,,,,,,,,,,,,2,,,,,,,,,,9,,,,,1,,,4,,,6,,11,20,,1,1,92,3,10,10,22,21,20,6,408
+EEEEEEE,N,Rho Cancerus I,,,,,Y,1,,,,,,0,none,,none,,detected,Y,,Y,,,4,6,2,,,,,,,,,,,,,,,,,,,,,,,12,,,,,,,,4,,,2,2,8,20,,1,1,28,4,4,4,4,4,4,4,112
+EEVEEON,N,Upsilon Polepositioni III,,,Y,,,1,,,,,,0,none,,none,,detected,Y,Y,,,,4,3,4,,,,,,,,,,,,,,,,,,,,,,,11,,,,,,,,4,3,2,,,9,20,,1,1,64,4,4,21,4,4,14,13,286
+EPSILON,N,Delta Belletaco VI,,,,,Y,1,,,,,,0,primitive,Y,primitive,,detected,Y,Y,,,,5,,,,,,,,,,,,,,,,,,2,,,,,,,7,,3,,,,,,4,6,,,,13,20,,1,1,83,4,15,18,8,11,14,13,350
+FINLAND,N,Saladus Capulet XI,,,,Y,,1,,Y,,,,1,none,,none,,detected,Y,Y,,,,3,2,4,,,,,,,,,,,,,,,,,,,,,,,9,,,,,,,,4,7,,,,11,20,,2,2,53,5,8,13,11,0,13,3,203
+FUNGALI,N,Theta Mexicanus II,Y,,,,,1,,,,,Y,1,primitive,Y,primitive,,detected,Y,Y,,,,4,3,,,,,,,,,,,,,,,,,1,,,,,,,8,,2,,,,,,4,4,2,,,12,20,,2,2,63,5,20,13,6,0,11,8,230
+DDXMZIQ,N,Trixrabbitus McNichols VII,,,,Y,,1,,,,,,0,none,,primitive,,detected,Y,Y,Y,Y,,2,2,,,,,,,,1,,,,,,,,,3,,,,,2,,10,,,,,,,,3,,,3,4,10,20,,1,1,90,3,3,23,12,25,8,16,411
+DECEIVE,N,Alpha Des Moines XI,,,Y,,,1,,,,,,0,advanced,,advanced,,detected,Y,,,Y,,3,3,,,1,,,,,,,,,,,,5,,,5,,,,,,17,,,,,,,,3,,,,,3,20,,1,1,46,3,4,2,4,8,21,4,227
+GRANITE,N,Bob Woodward IX,Y,,,,,1,,,Y,,,1,primitive,Y,advanced,Y,detected,Y,,Y,Y,,2,3,,,,,,,,,,,,1,,,,,,,,,,,,6,,2,,,,2,,3,,,7,,14,20,,2,2,67,6,17,0,13,8,19,4,274
+DPQRJNP,N,Lepidopterus McNichols X,Y,,,,,1,,,,,,0,advanced,,primitive,,detected,Y,Y,Y,Y,,4,,,,,,1,,,,,,,,,,2,,3,,,,,,,10,,,,,,,,2,1,2,5,,10,20,,1,1,88,3,15,16,17,9,13,15,377
+FINDING,N,Alpha Pacmanicus VI,,,,,Y,1,,,,Y,,1,primitive,,primitive,Y,detected,Y,Y,,,,3,2,,,,,,,,,,,,,,5,,,,,,,,,,10,,,,,2,,,2,6,,,,10,20,,2,2,56,5,8,13,3,8,13,6,232
+FLAMING,N,Chi Molotov XI,,,,Y,,1,,Y,,,,1,anomalous,,primitive,Y,detected,Y,Y,,,,,1,,,, , ,,,,,,,,,,,,,,,,,,,1,,,,,1,,,1,1,,,,3,4,,2,2,55,5,11,0,12,8,13,6,235
+DAAAAAA,N,Xi Pannus IX,,,,Y,,1,,,,,,0,primitive,Y,anomalous,,none,,Y,Y,,,3,3,,,,,,,,,,,,,,,,,,,2,,,,,8,,1,,,,,,,2,3,6,,12,20,,1,1,3,3,0,0,0,0,0,0,3
+DAAAAAB,N,Lambda Conjunctivitus VIII,,Y,,,,1,,,,,,0,primitive,,none,,none,,,,,,4,4,4,,,,,,,,,,,,,8,,,,,,,,,,20,,,,,,,,,,,,,0,20,,1,1,4,3,0,0,0,0,0,1,10
+DEFACED,N,Pi Diverticulus VII,,Y,,,,1,,,,,,0,anomalous,Y,primitive,Y,none,,,,,,3,4,4,,,,,,,,,,,,,,,,,,,,,,,11,,,,4,5,,,,,,,,9,20,,1,1,21,3,4,5,0,2,4,3,81
+DEFIANT,N,Mu Cardboardius VII,,Y,,,,1,,,,,,0,primitive,,none,,none,,Y,,,,4,2,3,,,,,,,,,,,,,3,,,,,,,,,,12,,,,,,,,,4,4,,,8,20,,1,1,52,3,4,5,8,0,13,19,269
+DELEVEN,N,Rho Paulson IX,Y,,,,,1,,,,,,0,anomalous,Y,anomalous,,none,,,Y,Y,,5,4,,,,,,,,,,,,1,,,,,,,1,,,,,11,,,,3,,,,,,,6,,9,20,,1,1,60,3,4,11,4,21,4,13,280
+DFAAAAA,N,Kappa Johnson IV,,,Y,,,1,,,,,,0,none,,anomalous,,none,,Y,,,,3,4,4,,,,,,,,,,,,,,,,,,5,,,4,,20,,,,,,,,,,,,,0,20,,1,1,8,3,5,0,0,0,0,0,13
+DGAAAAA,N,Eta Perambulus I,,,,,Y,1,,,,,,0,primitive,Y,advanced,Y,none,,Y,Y,,,3,3,,,,,,,,,,,,,,,,,,,,,,,4,10,,2,,,,3,,,5,,,,10,20,,1,1,9,3,6,0,0,0,0,0,15
+DIGNITY,N,Epsilon McDurkee I,,,,,Y,1,,,,,,0,anomalous,,primitive,,none,,Y,,,,4,3,,,,,,,,,,,,,,,,3,4,,,,,,,14,,,,,,,,,6,,,,6,20,,1,1,81,3,8,6,13,8,19,24,411
+DISGUST,N,Pi Hathaway X,,,,,Y,1,,,,,,0,none,,primitive,Y,none,,,,,,6,5,4,,,,,,,,,,,,,,,,,,,,,,,15,,,,,5,,,,,,,,5,20,,1,1,92,3,8,18,6,20,18,19,438
+DJAAAAA,N,Chi Paulreichus IV,,Y,,,,1,,,,,,0,primitive,,none,,none,,Y,,,,3,2,2,,,,,,,,,,,,,5,,,,,,,,,,12,,,,,,,,,8,,,,8,20,,1,1,12,3,9,0,0,0,0,0,21
+DKZLFER,N,Pi Pelicanus VII,,,,,Y,1,,,,,,0,none,,none,,none,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,0,0,,1,1,75,3,10,25,11,5,4,17,310
+DMAAAAA,N,Xi Discothecus I,,Y,,,,1,,,,,,0,primitive,Y,primitive,,none,,Y,Y,,,2,3,,,,,,,,,,,,,,,,,4,,,,,4,,13,,2,,,,,,,,,2,3,7,20,,1,1,15,3,12,0,0,0,0,0,27
+DNAAAAA,N,Phi Slobulus VI,,Y,,,,1,,,,,,0,primitive,,none,,detected,,,,,,3,5,3,,,,,,,,,,,,,8,,,,,,1,booze (26.9k),,,20,,,,,,,,,,,,,0,20,,1,1,16,3,13,0,0,0,0,0,29
+DOGFORT,N,Xi Polepositioni II,,Y,,,,1,,,,,,0,none,,primitive,,none,,,Y,Y,,2,2,2,,1,,,,,,,,,,,,,,3,,,,,,,10,,,,,,,,,,,10,,10,20,,1,1,78,3,14,6,5,14,17,19,374
+DOOTDOO,N,Chi Cooper IV,,,,,Y,1,,,,,,0,anomalous,,primitive,,none,,,,,,3,3,4,,,,,,,,,,,,,,,6,4,,,,,,,20,,,,,,,,,,,,,0,20,,1,1,81,3,14,14,19,3,14,14,346
+DORYFSH,N,Rho Diverticulus IX,,Y,,,,1,,,,,,0,none,,advanced,Y,detected,,,,,,5,6,4,,,,,,,,,,,,,,,,,,,1,Salad (23.5k),,,16,,,,,,4,,,,,,,4,20,,1,1,88,3,14,17,24,5,18,7,360
+DOUGLAS,N,Epsilon Bananaramus X,,Y,,,,1,,,,,,0,none,,primitive,,detected,,Y,Y,,,2,2,,,,,,,,,,,,,,,,,3,,,1,Mask (134k),,3,11,,,,,,,,,6,3,,,9,20,,1,1,72,3,14,20,6,11,0,18,296
+DPQQWKJ,N,Iota Molotov I,,Y,,,,1,,,,,,0,none,,primitive,,detected,,Y,,,,8,2,,,,,,,,,,,,,,,,,4,,,1,booze (17.4k),,,15,,,,,,,,,5,,,,5,20,,1,1,91,3,15,16,16,22,10,9,378
+DRAGONS,N,Chi Lepidopterus I,Y,,,,,1,,,,,,0,primitive,Y,primitive,Y,detected,,Y,,,,3,3,,,,,,,,,,,,,,,,,,,,1,Salad 28.1K,,,7,,5,,,3,,,,5,,,,13,20,,1,1,71,3,17,0,6,14,13,18,335
+DREADED,N,Kappa Mills IV,,,Y,,,1,,,,,,0,anomalous,Y,primitive,,none,,Y,,,,2,3,,,,,,,,,,,,,,,,,3,,,,,,,8,,,,3,,,,,9,,,,12,20,,1,1,34,3,17,4,0,3,4,3,109
+DRSRSWG,N,Theta O'Mally II,,,,Y,,1,,,,,,0,primitive,,advanced,,none,,,,,,5,3,5,,,,,,,,,,,,,4,,,,3,,,,,,20,,,,,,,,,,,,,0,20,,1,1,101,3,17,18,17,18,22,6,423
+DTAAAAA,N,Tau Goodman II,,Y,,,,1,,,,,,0,advanced,Y,primitive,,none,,Y,Y,,,3,2,,,,,,,,,,,,,,,,,3,,,,,,,8,,,2,,,,,,5,,3,2,12,20,,1,1,22,3,19,0,0,0,0,0,41
+DUPVNXQ,N,Pannus Harris XI,,,,Y,,1,,,,,,0,none,,none,,none,,Y,,,,7,4,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,,,,6,6,,1,1,111,3,20,15,21,13,23,16,487
+DWTMARG,N,Upsilon Simon X,Y,,,,,1,,,,,,0,none,,advanced,Y,none,,,Y,Y,,1,3,2,,,,1,,,,,,,,,,,,,,,,,,,7,,,,,,5,,,,,8,,13,20,,1,1,79,3,22,19,12,0,17,6,296
+DYCMQLH,N,Omega Allopecius XI,,,,Y,,1,,,,,,0,primitive,,anomalous,Y,none,,Y,Y,Y,,3,3,,,,,,,,1,,,,,,2,,,,,,,,,,9,,,,,,,2,,4,,5,,11,20,,1,1,75,3,24,2,12,16,11,7,300
+DZAAAAA,N,Gamma Crustulus IV,,,,Y,,1,,,,,,0,anomalous,Y,primitive,,none,,Y,,,,3,3,,,,,,,,,,,,,,,,,4,,,,,,,10,,,,3,,,,,3,4,,,10,20,,1,1,28,3,25,0,0,0,0,0,53
+EAAAAAB,N,Billclintonus Johnson IV,,,,Y,,1,,,,,,0,primitive,,none,,none,,Y,,,,4,3,3,,,,,,,,,,,,,5,,,,,,,,5,,20,,,,,,,,,,,,,0,20,,1,1,5,4,0,0,0,0,0,1,11
+EAGLESZ,N,Pacmanicus Anderson V,Y,,,,,1,,,,,,0,none,,none,,detected,,,,,,6,5,8,,,,,,,,,,,,,,,,,,,1,Medicine (24.4k),,,20,,,,,,,,,,,,,0,20,,1,1,68,4,0,6,11,4,18,25,369
+ECEEPVL,N,Dominatrix Garfield IX,,,,Y,,1,,,,,,0,none,,none,,none,,,Y,Y,,7,5,4,,,,1,,,,,,,,,,,,,,,,,,3,20,,,,,,,,,,,,,0,20,,1,1,61,4,2,4,4,15,21,11,314
+EEEEEEK,N,Omega Davis VII,,Y,,,,1,,,,,,0,primitive,,none,,none,,Y,,,,2,4,2,,,,,,,,,,,,,5,,,,,,,,,,13,,,,,,,,,7,,,,7,20,,1,1,34,4,4,4,4,4,4,10,154
+EFGHIJK,N,Crustulus Harrison IV,,,,Y,,1,,,,,,0,primitive,,anomalous,,none,,Y,Y,,,4,2,,,,,,,,,,,,,,2,,,,,2,,,,3,13,,,,,,,,,3,4,,,7,20,,1,1,49,4,5,6,7,8,9,10,224
+EFHTAIU,N,Chi Mills I,,,,,Y,1,,,,,,0,advanced,,advanced,Y,none,,,,,,5,3,3,,,,,,,,,,,,,,5,,,,,,,,,16,,,,,,4,,,,,,,4,20,,1,1,63,4,5,7,19,0,8,20,299
+EHZWLOM,N,Billclintonus Meadows IX,Y,,,,,1,,,,,,0,primitive,,advanced,Y,detected,,,Y,Y,,6,2,,,1,,,,,,,,,,,3,,,,,,1,medicine (27.7k),,,13,,,,,,2,,,,,3,2,7,20,,1,1,95,4,7,25,22,11,14,12,404
+EJBVUNC,N,Paulreiserus Dunn XI,,,,,Y,1,,,,,,0,primitive,,none,,none,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,0,0,,1,1,70,4,9,1,21,20,13,2,301
+EJJJFIE,N,Pi Nelson II,Y,,,,,1,,,,,,0,primitive,Y,none,,none,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,,0,0,,1,1,48,4,9,9,9,5,8,4,186
+ELECTRA,N,Alpha Dudebaddus XI,,,,Y,,1,,,,,,0,advanced,Y,primitive,Y,none,,Y,Y,,,2,3,,,,,,,,,,,,,,,,,,,,,,,,5,,,3,,2,,,,3,,3,4,15,20,,1,1,57,4,11,4,2,19,17,0,243
+ELEGANT,N,Fustulus Westinghouse XI,Y,,,,,1,,,,,,0,advanced,Y,none,,detected,,Y,,,,5,4,,,,,,,,,,,,,,,,,,,,1,Medicine(23.1k),,,10,,,3,,,,,,5,2,,,10,20,,1,1,57,4,11,4,6,0,13,19,273
+ELNINHO,N,Fustulus Berry X,,,Y,,,1,,,,,,0,primitive,Y,none,,none,,Y,Y,,,2,3,,,,,,,,,,,,,,,,,,,,,,,,5,,4,,,,,,,5,,3,3,15,20,,1,1,70,4,11,13,8,13,7,14,302
+ENGLAND,N,Kappa Tyler XI,,,,Y,,1,,,,,,0,advanced,,none,,none,,,,Y,,7,3,3,,,,1,,,,,,,,,,6,,,,,,,,,20,,,,,,,,,,, ,,0,20,,1,1,50,4,13,6,11,0,13,3,191
+EREWHON,N,Lambda White II,,,,,Y,1,,,,,,0,primitive,Y,none,,none,,,,,,5,5,6,,,,,,,,,,,,,,,,,,,,,,,16,,4,,,,,,,,,,,4,20,,1,1,81,4,17,4,22,7,14,13,348
+ESTONIA,N,Beta Gronulus X,,Y,,,,1,,,,,,0,primitive,,none,,none,Y,,,Y,,2,2,4,,,,1,,,,,,,,,2,,,,,,,,,,11,,,,,,,,,4,5,,,9,20,,1,1,76,4,18,19,14,13,8,0,266
+EVENRUE,N,Tau Perambulus IV,,,Y,,,1,,,,,,0,anomalous,Y,anomalous,,none,,,,Y,,5,3,3,,,,,,,,,,1,,,,,,,,4,,,,,16,,,,4,,,,,,,,,4,20,,1,1,83,4,21,4,13,17,20,4,343
+EXTREME,N,Nu DuPree XI,Y,,,,,1,,,,,,0,none,,advanced,,none,,,Y,,,5,3,1,,,,,,,,,,,,,,,,,4,,,,,,13,,,,,,,,,,,4,3,7,20,,1,1,83,4,23,19,17,4,12,4,295
+EYEBROW,N,Nu Wallace IX,,,,Y,,1,,,,,,0,anomalous,,anomalous,Y,none,,Y,Y,,,3,5,,,,,,,,,,,,,,,,3,,,,,,2,3,16,,,,,,,4,,,,,,4,20,,1,1,86,4,24,4,1,17,14,22,391
+EYESHIT,N,Theta Bob VI,Y,,,,,1,,,,,,0,none,,advanced,,none,,,,Y,,4,7,5,,,,,,,,,,1,,,,,,,3,,,,,,20,,,,,,,,,,,,,0,20,,1,1,84,4,24,4,18,7,8,19,352
+FAAAAAA,N,Lambda Cancerus X,,,Y,,,1,,,,,Y,1,primitive,,none,,none,,,,,,4,7,5,,,,,,,,,,,,,4,,,,,,,,,,20,,,,,,,,,,,,,0,20,,2,2,5,5,0,0,0,0,0,0,5
+FANTASY,N,Linoleus Thomas IV,Y,,,,,1,Y,,,,,1,none,,primitive,,none,,,Y,Y,,4,4,5,,,,,,,1,,,,,,,,,1,,,,,,,15,,,,,,,,,,,3,2,5,20,,2,2,79,5,0,13,19,0,18,24,396
+FARAWAY,N,Beta Belletaco VIII,,Y,,,,1,,,Y,,,1,primitive,Y,primitive,,detected,,,Y,Y,,4,4,,,,,,,,,,,,1,,,,,5,,,1,booze (11.2k),,2,17,,3,,,,,,,,,,,3,20,,2,2,68,5,0,17,0,22,0,24,334
+FARTGAS,N,Phi Bush I,,,Y,,,1,Y,,,,,1,advanced,Y,none,,none,,Y,Y,Y,,3,4,,,,,,,1,,,,,,,,,,,,,,,2,,10,,,4,,,,,,6,,,,10,20,,2,2,65,5,0,17,19,6,0,18,288
+FARTMAN,N,Sigma Cheetus X,,,,Y,,1,,,,Y,,1,primitive,,none,,none,,Y,,Y,,2,4,4,,,,,,,,,,1,,,2,,,,,,,,,,13,,,,,,,,,2,5,,,7,20,,2,2,66,5,0,17,19,12,0,13,283
+FBAAAAA,N,Theta Crunkuli II,,,,Y,,1,Y,,,,,1,primitive,,advanced,,none,,,,,,8,2,3,,,,,,,,,,,,,5,,,,2,,,,,,20,,,,,,,,,,,,,0,20,,2,2,6,5,1,0,0,0,0,0,7
+FBDMZRW,N,Yodeli Lee I,,Y,,,,1,,,,Y,,1,primitive,,primitive,Y,none,,,,Y,,4,4,4,,,,,,,,,,,,1,4,,,,,,,,,,17,,,,,3,,,,,,,,3,20,,2,2,85,5,1,3,12,25,17,22,445
+FBRORUW,N,Epsilon Fredfordus I,,,,,Y,1,,Y,,,,1,,,primitive,Y,,,,,,,6,5,3,,,,,,,,,,,,,,,,,,,,,,,14,,,,,6,,,,,,,,6,20,,2,2,96,5,1,17,14,17,20,22,473
+FFYIVNN,N,Mu Jackson VIII,,,,Y,,1,,,Y,,,1,none,,advanced,,none,,Y,,Y,,5,3,6,,,,,,,,1,,,,,,,,,3,,,,2,,20,,,,,,,,,,,,,0,20,,2,2,89,5,5,24,8,21,13,13,393
+FGLDEFI,N,Psi Nichols III,,,,Y,,1,,,Y,,,1,none,,primitive,Y,none,,,,,,10,4,3,,,,,,,,,,,,,,,,,,,,,,,17,,,,,3,,,,,,,,3,20,,2,2,42,5,6,11,3,4,5,8,168
+FGRVJCU,N,Equipajus Lennon VII,Y,,,,,1,,,,Y,,1,primitive,,advanced,Y,none,,,,,,3,6,4,,,,,,,,,,,,,4,,,,,,,,,,17,,,,,,3,,,,,,,3,20,,2,2,80,5,6,17,21,9,2,20,349
+FIDZUXQ,N,Tau Allen VIII,,Y,,,,1,,,,,Y,1,none,,none,,detected,,Y,,,,3,5,4,,,,,,,,,,,,,,,,,,,1,booze (25.1k),,,13,,,,,,,,,7,,,,7,20,,2,2,100,5,8,3,25,20,23,16,480
+FLATGEO,N,Gronulus Paulson VII,,,,,Y,1,,Y,,,,1,none,,none,,detected,,Y,,,,1,5,4,,,,,,,,,,,,,,,,,,,1,medicine (20.3k),,,11,,,,,,,,,7,,,,7,18,,2,2,59,5,11,0,19,6,4,14,255
+FLEMISH,N,Perfunctus Martin VIII,,,Y,,,1,,,Y,,,1,none,,none,,none,,Y,,Y,,5,3,5,,,1,,,,,,,,,,,,,,,,,,,,14,,,,,,,,,6,,,,6,20,,2,2,65,5,11,4,12,8,18,7,284
+FRATORC,N,Xi Humptydumptus X,Y,,,,,1,,,Y,,,1,advanced,Y,none,,none,,Y,,Y,,2,3,4,,,,,,,,,,1,,,,,,,,,,,,,10,,,3,,,,,,3,4,,,10,20,,2,2,74,5,17,0,19,14,17,2,301
+FROGMAN,N,Eta Dunn II,,,,Y,,1,Y,,,,,1,primitive,,advanced,,none,,,,,,3,4,3,,,,,,,,,,,,,3,,,,7,,,,,,20,,,,,,,,,,,,,0,20,,2,2,67,5,17,14,6,12,0,13,256
+FRYCOOK,N,Beta Nichols XI,Y,,,,,1,,Y,,,,1,advanced,Y,none,,none,,Y,Y,,,2,3,,,,,,,,,,,,,,,,,,,,,,,3,8,,,3,,,,,,5,4,,,12,20,,2,2,86,5,17,24,2,14,14,10,343
+FUCKYOU,N,Delta Crustulus IV,,,Y,,,1,,,Y,,,1,primitive,Y,anomalous,Y,none,,Y,,,,3,3,,,,,,,,,,,,,,,,,,,,,,,,6,,1,,,,,3,,10,,,,14,20,,2,2,95,5,20,2,10,24,14,20,435
+FUNTIME,N,Eta Shannahan VI,,,,,Y,1,Y,,,,,1,none,,none,,none,,Y,,Y,,2,6,2,,,,,,,1,,,,,,,,,,,,,,,,11,,,,,,,,,9,,,,9,20,,2,2,81,5,20,13,19,8,12,4,300
+FUTURES,N,Sigma Linoleus VII,,,,,Y,1,,Y,,,,1,primitive,,none,,none,,Y,,,,3,3,3,,,,,,,,,,,,,5,,,,,,,,,,14,,,,,,,,,3,3,,,6,20,,2,2,103,5,20,19,20,17,4,18,417
+GARDYLU,N,Chi Brooks VIII,,,,Y,,1,Y,,,,,1,none,,primitive,,none,,Y,,Y,,2,2,4,,,,1,,,,,,,,,,,,7,,,,,,,16,,,,,,,,,2,2,,,4,20,,2,2,81,6,0,17,3,24,11,20,395
+GARGOYL,N,Lambda Fustulus X,Y,,,,,1,,,Y,,,1,none,,advanced,,none,,,,,,5,5,6,,,,,,,,,,,,,,,,,4,,,,,,20,,,,,,,,,,,,,0,20,,2,2,78,6,0,17,6,14,24,11,372
+GAYFART,N,Phi Wallace XI,,,Y,,,1,,,Y,,,1,none,,none,,none,,,,,,6,3,5,,,,,,,,,,,,,3,,,3,,,,,,,20,,,,,,,,,,,,,0,20,,2,2,71,6,0,24,5,0,17,19,333
+GCYKWII,N,Iota Belletaco IX,,Y,,,,1,,,,Y,,1,none,,none,,none,,,Y,,,2,6,4,,,,,,,,,,,,,,,,,,,,,,,12,,,,,,,,,,,3,5,8,20,,2,2,80,6,2,24,10,22,8,8,336
+GDHJYWM,N,Equipajus Haggard II,Y,,,,,1,,,,,Y,1,none,,none,,detected,,Y,Y,,,3,1,,,,,,,,,,,,,,,4,,,,,1,medicine (18.4k),4,,13,,,,,,,,,,,7,,7,20,,2,2,83,6,3,7,9,24,22,12,405
+GDYUUFS,N,Delta Diverticulus IV,,,,,Y,1,Y,,,,,1,primitive,,primitive,Y,none,,Y,Y,,,3,3,,,,,,,,,,,,,,4,,,,,,,,2,4,16,,,,,4,,,,,,,,4,20,,2,2,96,6,3,24,20,20,5,18,420
+GERHILD,N,Mu Bananaramus XI,,,,Y,,1,,,,Y,,1,primitive,,primitive,Y,detected,,,,Y,,6,6,,,,,,,,,,,,1,,3,,,,,,1,salad (19.9k),,,17,,,,,3,,,,,,,,3,20,,2,2,56,6,4,17,7,8,11,3,220
+GETJINX,N,Eta Polepositioni XI,,,,,Y,1,Y,,,,,1,advanced,,advanced,Y,none,,Y,Y,,,3,2,,,1,,,,,,,,,,,3,,,,,,,,,3,12,,,,,,3,,,5,,,,8,20,,2,2,82,6,4,19,9,8,13,23,386
+GFEDCBA,N,Zeta Taylor VIII,,,Y,,,1,,,,Y,,1,none,,anomalous,,none,,,Y,Y,,4,4,4,,,,1,,,,,,,,,,,,,,2,,,,,15,,,,,,,,,,,5,,5,20,,2,2,21,6,5,4,3,2,1,0,56
+GHOSTLY,N,Psi Wallace V,Y,,,,,1,,,,,Y,1,primitive,Y,primitive,,detected,,,,,,4,3,,,,,,,,,,,,,,,,,6,,,1,salad (28.9k),,,14,,6,,,,,,,,,,,6,20,,2,2,99,6,7,14,18,19,11,24,463
+GIWMWRF,N,,,,,,Y,,,,,Y,,,primitive,,primitive,Y,detected,,,Y,,,5,2,,,,,,,,,,,,,,3,,,,,,1,medicine (20.1k),,,,,,,,3,,,,,,2,4,,,,,,,,,,,,,,
+GMJSIYD,N,Nu Dunn IX,Y,,,,,1,Y,,,,,1,none,,none,,detected,,,,,,6,6,7,,,,,,,,,,,,,,,,,,,1,booze (20.1),,,20,,,,,,,,,,,,,0,20,,2,2,80,6,12,9,18,8,24,3,334
+GNWNTEI,N,Nu Anderson III,,,,Y,,1,,,,Y,,1,anomalous,Y,primitive,,none,,Y,,Y,,4,3,,,,,,,,,,,1,,,,,,4,,,,,4,,16,,,,4,,,,,,,,,4,20,,2,2,85,6,13,22,13,19,4,8,325
+GOGGLES,N,Kappa Bob V,,,,,Y,1,Y,,,,,1,primitive,Y,primitive,,none,,,,Y,,3,3,5,,,,1,,,,,,,,,,,,5,,,,,,,17,,3,,,,,,,,,,,3,20,,2,2,65,6,14,6,6,11,4,18,281
+GOTOPAX,N,Tau Mott II,,Y,,,,1,,,,Y,,1,none,,primitive,Y,none,,,,Y,,4,5,4,,,,1,,,,,,,,,,,,,,,,,,,14,,,,,6,,,,,,,,6,20,,2,2,91,6,14,19,14,15,0,23,383
+GPBRSRL,N,Tau Goldthwait IX,,,,Y,,1,,,,,Y,1,none,,advanced,Y,none,,,,,,4,4,4,,,,,,,,,,,,,,,,,,,,,,,12,,,,,,8,,,,,,,8,20,,2,2,85,6,15,1,17,18,17,11,376
+GREGORY,N,Omega Paulreichus II,,,,,Y,1,,,,Y,,1,primitive,,advanced,Y,none,,Y,,,,3,4,,,,,,,,,,,,,,3,,,,,,,,,,10,,,,,,3,,,3,4,,,10,20,,2,2,88,6,17,4,6,14,17,24,416
+GREYCAT,N,Zeta Crustulus III,,,Y,,,1,,Y,,,,1,advanced,,none,,none,,,,Y,,3,5,7,,,,,,,1,,,,,,,4,,,,,,,,,20,,,,,,,,,,,,,0,20,,2,2,72,6,17,4,24,2,0,19,291
+GRIFFIN,N,Allopecius Brown II,,,,,Y,1,,,Y,,,1,none,,primitive,Y,detected,,,,,,5,5,6,,,,,,,,,,,,,,,,,,,1,medicine (21.1k),,,17,,,,,3,,,,,,,,3,20,,2,2,62,6,17,8,5,5,8,13,248
+GRIMDOG,N,Lambda Mexicanus V,,,,,Y,1,,Y,,,,1,none,,primitive,Y,detected,,,,Y,,5,4,5,,,,,,,,,,,,1,,,,,,,1,Booze (18.7k),,,16,,,,,4,,,,,,,,4,20,,2,2,66,6,17,8,12,3,14,6,253

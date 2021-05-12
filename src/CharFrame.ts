@@ -1,0 +1,8 @@
+import Frame from "./Frame.js";
+import type RootFrame from "./RootFrame.js";
+
+type CharFrameGlobals = {
+    pwdhash: string,
+};
+
+export default class ChatFrame extends Frame<RootFrame, CharFrameGlobals> {}

@@ -4,23 +4,17 @@ module.exports = {
     mount: {
         src: "/",
     },
-    plugins: [
-        "@snowpack/plugin-typescript",
-        ["@snowpack/plugin-optimize", {
-            minifyJS: true,
-            minifyHTML: true,
-            minifyCSS: true,
-            preloadModules: true,
-        }],
-    ],
-    installOptions: {
-        installTypes: true,
-        sourceMap: true,
+    optimize: {
+        preload: true,
+        minify: true,
+        target: "esnext",
     },
     buildOptions: {
-        // clean: true,
+        clean: true,
         out: "./web/",
-        sourceMaps: true,
-        webModulesUrl: "/packages",
+    },
+    devOptions: {
+        hostname: "kol.localhost",
+        output: "stream",
     },
 };

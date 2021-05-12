@@ -1,0 +1,3 @@
+[submodule "src/assert"]
+	path = src/assert
+	url = git@github.com:Jamesernator/assert.git

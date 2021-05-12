@@ -19,19 +19,19 @@ export default class DeckOfEveryCard {
     async cheat(card: string): Promise<void> {
         await this.visitCheat();
 
-        const options = Array.from(this.#kol.mainDocument
-            .querySelectorAll("select#which > option"))
+        const options = this.#kol.mainFrame.$$("select#which > option")
             .filter((option) => {
                 return option.textContent!.toLowerCase().includes(card.toLowerCase());
-            }) as (Array<HTMLOptionElement>);
-
+            });
         if (options.length === 0) {
             throw new Error(`No matches for card ${ card }`);
         }
         if (options.length > 1) {
             throw new Error(`Multiple options for card ${ card }`);
         }
-        options[0].selected = true;
+        (options[0] as HTMLOptionElement).selected = true;
+
+
         await this.#kol.submit();
         this.#kol.assertIsChoice(1085);
         await this.#kol.submit("#play");

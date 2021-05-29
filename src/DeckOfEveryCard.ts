@@ -8,10 +8,8 @@ export default class DeckOfEveryCard {
     }
 
     async visitCheat(): Promise<void> {
-        await this.#kol.goto("/inv_use.php", {
-            pwd: this.#kol.pwdHash,
+        await this.#kol.use(8382, {
             cheat: 1,
-            whichitem: 8382,
         });
         this.#kol.assertIsChoice(1086);
     }

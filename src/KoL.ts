@@ -20,7 +20,7 @@ export default class KoL {
         this.#rootFrame = new RootFrame(rootWindow, null);
         const $ = (s: string) => {
             const el = rootWindow.document.querySelector(s);
-            assert(el instanceof HTMLFrameElement);
+            assert(el instanceof HTMLIFrameElement);
             return el;
         };
         this.#mainFrame = new MainFrame(
@@ -104,10 +104,14 @@ export default class KoL {
         await nextLoad;
     }
 
-    async use(item: number): Promise<void> {
+    async use(
+        item: number,
+        extraOptions: Record<string, string | number>,
+    ): Promise<void> {
         await this.goto("/inv_use.php", {
             pwd: this.pwdHash,
             whichItem: String(item),
+            ...extraOptions,
         });
     }
 

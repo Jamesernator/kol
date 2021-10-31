@@ -5,4 +5,4 @@ type CharFrameGlobals = {
     pwdhash: string,
 };
 
-export default class ChatFrame extends Frame<RootFrame, CharFrameGlobals> {}
+export default class CharFrame extends Frame<RootFrame, CharFrameGlobals> {}

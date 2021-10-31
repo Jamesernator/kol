@@ -9,6 +9,14 @@ import Signal from "./lib/Signal.js";
 import cancel from "./lib/cancel.js";
 
 export default class KoL {
+    static createAuto(): KoL {
+        const topWindow = window.top;
+        if (topWindow === null) {
+            throw new Error("window is detached from browser");
+        }
+        return new KoL(topWindow as Window & typeof globalThis);
+    }
+
     readonly #rootFrame: RootFrame;
     readonly #mainFrame: MainFrame;
     readonly #chatFrame: ChatFrame;
@@ -20,7 +28,7 @@ export default class KoL {
         this.#rootFrame = new RootFrame(rootWindow, null);
         const $ = (s: string) => {
             const el = rootWindow.document.querySelector(s);
-            assert(el instanceof HTMLIFrameElement);
+            assert(el instanceof HTMLFrameElement);
             return el;
         };
         this.#mainFrame = new MainFrame(
@@ -106,7 +114,7 @@ export default class KoL {
 
     async use(
         item: number,
-        extraOptions: Record<string, string | number>,
+        extraOptions: Record<string, string | number>={},
     ): Promise<void> {
         await this.goto("/inv_use.php", {
             pwd: this.pwdHash,
@@ -125,6 +133,16 @@ export default class KoL {
 
         const nextLoad = this.nextLoad();
         formElement.submit();
+        await nextLoad;
+    }
+
+    async click(selector: string): Promise<void> {
+        const nextLoad = this.nextLoad();
+        const element = this.mainFrame.$(selector);
+        if (element === null) {
+            throw new Error(`No element for selector ${ selector }`);
+        }
+        element.click();
         await nextLoad;
     }
 

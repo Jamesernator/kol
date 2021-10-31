@@ -57,7 +57,7 @@ export default class Genie {
         await this.#kol.use(item);
         await nextLoad;
         this.#kol.assertIsChoice(1267);
-        const wishInput = this.#kol.mainDocument
+        const wishInput = this.#kol.mainFrame
             .querySelector("[name=wish]") as HTMLInputElement;
         wishInput.value = wish;
         await this.#kol.submit();

@@ -1,13 +1,14 @@
+import type { WindowGlobal } from "./WindowGlobal.js";
 
 export default class Frame<
     ParentType extends Frame | null=null,
     GlobalExtensions={},
 > {
-    readonly #window: typeof globalThis & Window & GlobalExtensions;
+    readonly #window: WindowGlobal & GlobalExtensions;
     readonly #parent: ParentType;
 
     constructor(
-        window: typeof globalThis & Window & GlobalExtensions,
+        window: WindowGlobal & GlobalExtensions,
         parent: ParentType,
     ) {
         this.#window = window;
@@ -30,7 +31,7 @@ export default class Frame<
         return this.#window.frameElement;
     }
 
-    evalFunction<T>(
+    eval<T>(
         func: (window: typeof globalThis & GlobalExtensions) => T,
     ): T {
         return this.#window.eval(`(${ func.toString() })`)(this.#window);
@@ -64,5 +65,20 @@ export default class Frame<
             [...this.#window.document.querySelectorAll(selector)],
             this.#window,
         );
+    }
+
+    $input(selector: string, text: string): void {
+        const element = this.#window.document.querySelector(selector);
+        if (element === null) {
+            throw new Error(`No element matching selector ${ JSON.stringify(selector) }`);
+        }
+        if (!(element instanceof this.#window.HTMLInputElement)) {
+            throw new Error(`Element is not an <input> element`);
+        }
+        element.value = text;
+    }
+
+    $selectOption(selector: string): void {
+
     }
 }

@@ -1,12 +1,12 @@
+import assert from "./assert/assert.js";
 import CharFrame from "./CharFrame.js";
 import ChatFrame from "./ChatFrame.js";
 import DeckOfEveryCard from "./DeckOfEveryCard.js";
+import cancel from "./lib/cancel.js";
+import Signal from "./lib/Signal.js";
 import MainFrame from "./MainFrame.js";
 import MenuFrame from "./MenuFrame.js";
 import RootFrame from "./RootFrame.js";
-import assert from "./assert/assert.js";
-import Signal from "./lib/Signal.js";
-import cancel from "./lib/cancel.js";
 
 export default class KoL {
     static createAuto(): KoL {
@@ -74,7 +74,7 @@ export default class KoL {
     }
 
     get pwdHash(): string {
-        return this.#charFrame.window.pwdhash;
+        return this.#charFrame.windowHandle.unwrapValue().pwdhash;
     }
 
     get mainURL(): string {
@@ -85,7 +85,7 @@ export default class KoL {
         return this.#deckOfEveryCard;
     }
 
-    nextLoad(cancelSignal: Signal=Signal.never): Promise<Event> {
+    nextLoad(cancelSignal: Signal = Signal.never): Promise<Event> {
         return new Promise((resolve, reject) => {
             this.#mainFrame.frameElement
                 ?.addEventListener("load", resolve, {
@@ -100,8 +100,8 @@ export default class KoL {
     }
 
     async goto(
-        url: string | URL,
-        options: Record<string, string | number>={},
+        url: URL | string,
+        options: Record<string, number | string> = {},
     ): Promise<void> {
         url = new URL(url.toString(), this.#rootFrame.window.location.origin);
         for (const [key, value] of Object.entries(options)) {
@@ -114,47 +114,48 @@ export default class KoL {
 
     async use(
         item: number,
-        extraOptions: Record<string, string | number>={},
+        extraOptions: Record<string, number | string> = {},
     ): Promise<void> {
         await this.goto("/inv_use.php", {
             pwd: this.pwdHash,
-            whichItem: String(item),
+            whichitem: String(item),
             ...extraOptions,
         });
     }
 
-    async submit(form: string="form"): Promise<void> {
-        const formElement = this.#mainFrame.$eval(form, (el) => {
-            if (!(el instanceof HTMLFormElement)) {
-                throw new TypeError("Must be a form");
-            }
-            return el;
-        });
-
+    async $submit(formSelector: string = "form"): Promise<void> {
         const nextLoad = this.nextLoad();
-        formElement.submit();
+        this.#mainFrame.$submit(formSelector);
         await nextLoad;
     }
 
-    async click(selector: string): Promise<void> {
+    async $click(selector: string): Promise<void> {
         const nextLoad = this.nextLoad();
-        const element = this.mainFrame.$(selector);
-        if (element === null) {
-            throw new Error(`No element for selector ${ selector }`);
-        }
-        element.click();
+        this.#mainFrame.$click(selector);
         await nextLoad;
     }
 
-    assertIsChoice(choiceAdv: number): void {
+    assertIsChoice(expectedChoiceAdv: number): void {
         const url = new URL(this.mainURL);
         if (url.pathname !== "/choice.php") {
             throw new Error("Not in choice.php");
         }
-        const choice = this.#mainFrame.document
-            .getElementsByName("whichchoice")[0] as HTMLInputElement;
-        if (Number(choice.value) !== choiceAdv) {
-            throw new Error(`Expected to be in choice ${ choiceAdv }`);
+        const choiceElement = this.#mainFrame.$(`[name=whichchoice]`);
+        if (choiceElement === null) {
+            throw new Error(`Expected to be in a choice adventure`);
+        }
+
+        const choiceValue = choiceElement.eval((el) => {
+            if (!(el instanceof HTMLInputElement)) {
+                throw new Error(`Expected choice to be an <input> element`);
+            }
+            return Number(el.value);
+        });
+
+        if (choiceValue !== expectedChoiceAdv) {
+            throw new Error(
+                `Expected to be in choice ${ expectedChoiceAdv } not ${ choiceValue }`,
+            );
         }
     }
 }

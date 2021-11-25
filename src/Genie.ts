@@ -4,6 +4,7 @@ const GENIE_BOTTLE = 9529;
 const POCKET_WISH = 9537;
 
 export const Wish = {
+    [Symbol.toStringTag]: "Wish",
     pony(): string {
         return "for a pony";
     },
@@ -49,19 +50,15 @@ export default class Genie {
         this.#kol = kol;
     }
 
-    readonly #submitWish = async (
+    async #submitWish(
         item: typeof GENIE_BOTTLE | typeof POCKET_WISH,
         wish: string,
-    ): Promise<void> => {
-        const nextLoad = this.#kol.nextLoad();
+    ): Promise<void> {
         await this.#kol.use(item);
-        await nextLoad;
         this.#kol.assertIsChoice(1267);
-        const wishInput = this.#kol.mainFrame
-            .querySelector("[name=wish]") as HTMLInputElement;
-        wishInput.value = wish;
-        await this.#kol.submit();
-    };
+        this.#kol.mainFrame.$input(`[name=wish]`, wish);
+        await this.#kol.$submit();
+    }
 
     async genieWish(wish: string): Promise<void> {
         await this.#submitWish(GENIE_BOTTLE, wish);

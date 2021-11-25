@@ -1,5 +1,7 @@
 import type KoL from "./KoL.js";
 
+const DECK_OF_EVERY_CARD = 8382
+
 export default class DeckOfEveryCard {
     #kol: KoL;
 
@@ -7,8 +9,14 @@ export default class DeckOfEveryCard {
         this.#kol = kol;
     }
 
+    async draw(): Promise<void> {
+        await this.#kol.use(DECK_OF_EVERY_CARD);
+        this.#kol.assertIsChoice(1085);
+        await this.#kol.$submit("#play");
+    }
+
     async visitCheat(): Promise<void> {
-        await this.#kol.use(8382, {
+        await this.#kol.use(DECK_OF_EVERY_CARD, {
             cheat: 1,
         });
         this.#kol.assertIsChoice(1086);
@@ -17,21 +25,12 @@ export default class DeckOfEveryCard {
     async cheat(card: string): Promise<void> {
         await this.visitCheat();
 
-        const options = this.#kol.mainFrame.$$("select#which > option")
-            .filter((option) => {
-                return option.textContent!.toLowerCase().includes(card.toLowerCase());
-            });
-        if (options.length === 0) {
-            throw new Error(`No matches for card ${ card }`);
-        }
-        if (options.length > 1) {
-            throw new Error(`Multiple options for card ${ card }`);
-        }
-        (options[0] as HTMLOptionElement).selected = true;
+        this.#kol.mainFrame.$selectOption("select#which", {
+            text: card,
+        });
 
-
-        await this.#kol.submit();
+        await this.#kol.$submit();
         this.#kol.assertIsChoice(1085);
-        await this.#kol.submit("#play");
+        await this.#kol.$submit("#play");
     }
 }

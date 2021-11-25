@@ -24,10 +24,13 @@ export default class ObjectHandle<T extends object> {
         return this.#value;
     }
 
-    eval<R>(func: (value: T) => R): R extends object ? ObjectHandle<R> : R {
+    eval<R, Args extends Array<any> | [any]>(
+        func: (value: T, ...extraArgs: Args) => R,
+        ...extraArgs: Args
+    ): R extends object ? ObjectHandle<R> : R {
         const inRealmFunc = this.#window
             .eval.call(null, `(${ func.toString() })`);
-        const result = inRealmFunc(this.#value);
+        const result = inRealmFunc(this.#value, ...extraArgs);
         if (isObject(result)) {
             return new ObjectHandle(this.#window, result) as any;
         }
